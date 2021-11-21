@@ -1,6 +1,7 @@
 <nav class="secondary">
     <ul>
         {{ range where .Site.Sections "Section" "about" }}
+        <li><a href="{{.Permalink}}" title="{{.Title}}">{{.LinkTitle}}</a></li>
         {{ range .Pages }}
         <li><a href="{{.Permalink}}" title="{{.Title}}">{{.LinkTitle}}</a></li>
         {{ end }}
