@@ -22,6 +22,6 @@ const eglises = [
 
 {{ $search := resources.Get "js/search.js" }}
 {{ $fuse := resources.Get "js/fuse.js" }}
-{{ $js := slice $fuse $search | resources.Concat "js/bundle.js"  | minify | fingerprint }}
+{{ $js := slice $fuse $search | resources.Concat "/assets/js/bundle.js"  | minify | fingerprint }}
 <script defer src="{{ $js.Permalink }}"></script>
 {{ end }}
