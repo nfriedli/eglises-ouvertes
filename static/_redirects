@@ -1,6 +1,4 @@
-
-
-
+/api.json                           /index.json
 /auvernier/                         /neuchatel/auvernier/
 /bevilard/                          /berne/bevilard/
 /biens-culturels/                   /about/biens-culturels/
@@ -37,6 +35,7 @@
 /search/                            /about/search/
 /site/                              /about/site/
 /sitemap/                           /about/sitemap/
+/sitemap.txt                        /sitemap.xml
 /sornetan/                          /berne/sornetan/
 /tramelan/                          /berne/tramelan/
 /villeneuve/                        /vaud/villeneuve/
