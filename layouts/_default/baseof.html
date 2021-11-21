@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{site.LanguageCode}}">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ block "title" . }}{{ .Title }}{{end}} - {{ site.Title }}</title>
+  <link rel="canonical" href="{{.Permalink}}">
+  {{ block "description" . }}
+  {{ with .Params.description }}<meta name="description" content="{{.}}">{{ end }}
+  {{ end }}
+  {{ partialCached "head.html" . }}
+  {{ block "ld-json" . }} {{ end }}
+  {{ template "_internal/google_analytics.html" . }}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+</head>
+
+<body>
+
+  {{ partialCached "header.html" . }}
+
+  {{ partial "navPrimary.html" . }}
+
+  <main>
+    <article>
+      <h1>{{ .Title }}</h1>
+      {{ block "main" . }} {{ end }}
+    </article>
+  </main>
+
+  {{ partial "navSecondary.html" . }}
+
+  {{ partialCached "footer.html" . }}
+
+</body>
+
+{{ block "javascript" . }} {{ end }}
+
+</html>

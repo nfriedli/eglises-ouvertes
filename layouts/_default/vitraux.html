@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+    {{ .Content }}
+
+    {{ range $site.Data.vitraux }}
+        {{ $nom := .nom }}
+        <h2>{{ .nom }} <small>({{ .dates }})</small></h2>
+        <ul>
+        {{ range $site.RegularPages }}
+        {{ $vitraux := .Params.vitraux}}
+        {{ if in $vitraux $nom }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a> <small>({{ .Params.canton }})</small>{{ end }}</li>
+        {{ end }}
+        </ul>
+    {{ end }}
+
+{{ end }}

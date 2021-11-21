@@ -1,0 +1,10 @@
+{{ $current := . }}
+<nav class="secondary">
+    <ul>
+        {{ range where .Site.Sections "Section" "about" }}
+        {{ range .Pages }}
+        <li>{{ if eq .Permalink $current.Permalink}}<span class="on">{{.LinkTitle}}</span>{{else}}<a href="{{.Permalink}}" title="{{.Title}}">{{.LinkTitle}}</a>{{ end }}</li>
+        {{ end }}
+        {{ end }}
+    </ul>
+</nav>

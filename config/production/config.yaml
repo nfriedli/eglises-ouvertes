@@ -1,0 +1,11 @@
+googleAnalytics: UA-59198139-10
+
+minify:
+  minifyOutput: true
+  tdewolff:
+    css:
+      keepCSS2: false
+    html:
+      keepDefaultAttrVals: false
+      keepQuotes: true
+      keepWhitespace: true

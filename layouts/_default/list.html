@@ -1,0 +1,22 @@
+
+{{ define "title"}}
+{{ .Title }} ({{.Params.eglise}})
+{{ end }}
+
+{{ define "main" }}
+
+    {{ with .Content }}
+        {{ . }}
+    {{ else }}
+        {{ .Description | markdownify }}
+    {{ end }}
+    
+    <ul>
+    {{ range sort .RegularPages "File.BaseFileName" }}
+        <li><a href="{{ .Permalink}}">{{ .Title }}</a>{{ if .Params.localite }} <small>({{ .Params.commune }})</small>{{ end }}</li>
+    {{ end }}
+    </ul> 
+
+
+    
+{{ end }}

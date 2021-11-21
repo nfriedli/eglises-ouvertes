@@ -1,0 +1,23 @@
+{
+  "name": "eglises-ouvertes",
+  "version": "1.0.0",
+  "description": "Liste d’églises protestantes réformées ouvertes en Suisse romande.",
+  "main": "distances.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfriedli/eglises-ouvertes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nfriedli/eglises-ouvertes/issues"
+  },
+  "homepage": "https://github.com/nfriedli/eglises-ouvertes#readme",
+  "dependencies": {
+    "geolib": "^3.3.3"
+  }
+}
