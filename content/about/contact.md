@@ -1,5 +1,6 @@
 ---
-title: Contact
+title: Contacter le responsable du site
+linkTitle: Contact
 description: Spécificités du projet, contact de l’auteur du site, licence des contenus & informations techniques.
 weight: 1000
 ---

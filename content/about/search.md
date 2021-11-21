@@ -1,5 +1,6 @@
 ---
-title: Recherche
+title: Recherche globale
+linkTitle: Recherche
 description: Rechercher une église ouverte par nom, numéro postal (NPA) ou localité. Ça fonctionne aussi pour un temple, une chapelle, une cathédrale ou une collégiale.
 layout: search
 weight: 900
