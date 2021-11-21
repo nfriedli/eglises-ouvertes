@@ -37,36 +37,6 @@ Suisse
 [+41 32 841 48 74](tel:+41328414874) (urgences uniquement)  
 [+41 79 344 33 82](tel:+41793443382) (Threema, Signal, SMS, Telegram, ~~WhatsApp~~)
 
-<script type="application/ld+json">
-{
-"@context": "http://www.schema.org",
-"@type": "person",
-"name": "Nicolas Friedli",
-"jobTitle": "Consultant web indépendant",
-"gender": "male",
-"url": "https://nicolasfriedli.ch/",
-"sameAs": [
-"https://theologique.ch/",
-"https://frdl.ch",
-"https://ma-paroisse.ch/",
-"https://eglises-ouvertes.ch"
-],
-"image": "https://frdl.ch/nicolas-friedli.jpg",
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "Rue du Château 3",
-"addressLocality": "Colombier",
-"addressRegion": "NE",
-"postalCode": "2013",
-"addressCountry": "Suisse"
-},
-"email": "nicolasfriedli@protonmail.ch",
-"alumniOf": "Université de Neuchâtel",
-"nationality": "Suisse",
-"telephone": "+41328414874"
-}
-</script>
-
 Je suis disponible pour vous aider à:
 - [gérer votre fiche Google Maps](/about/google/) ou
 - [évaluer votre page de présentation sur votre site](/about/site/)
@@ -114,17 +84,17 @@ Il devrait obtenir de très bons résultats de performances au test Lighthouse.
 
 Le site utilise Google Analytics pour obtenir quelques informations de navigation.
 Il utilise la polices libre *Fraunces*.
-La recherche utilise le splendide `fuse.js`.
+La recherche utilise le splendide fuse.js.
 
 
 ## Remerciements
 
 Pour leur soutien, leurs avis, leurs contributions et leurs outils libres, merci à:
 
-- [Maëlle Bader](https://www.referguel.ch/paroisses/courtelary-cormoret/)
-- [Joël Burri](https://www.reformes.ch/blog/joel-burri)
-- [Diane Friedli](https://dianefriedli.ch/)
-- [David Kneubühler](https://www.referguel.ch/paroisses/corgemont-cortebert/)
-- [Bjørn Erik Pedersen](https://bep.is/en/)
-- [Kiro Risk](https://fusejs.io/team.html)
-- [Zach Leatherman](https://www.zachleat.com/)
+- [Maëlle Bader](https://www.referguel.ch/paroisses/courtelary-cormoret/), pasteure
+- [Joël Burri](https://www.reformes.ch/blog/joel-burri), journaliste
+- [Diane Friedli](https://dianefriedli.ch/), pasteure
+- [David Kneubühler](https://www.referguel.ch/paroisses/corgemont-cortebert/), pasteur
+- [Bjørn Erik Pedersen](https://bep.is/en/), créateur de Hugo
+- [Kiro Risk](https://fusejs.io/team.html), créateur de fuse.js
+- [Zach Leatherman](https://www.zachleat.com/), créateur d’Eleventy (11ty)
