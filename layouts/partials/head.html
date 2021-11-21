@@ -1,7 +1,9 @@
-{{ $style := resources.Get "assets/css/style.css" | minify }}
+{{ $style := resources.Get "assets/css/style.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-{{ $print := resources.Get "assets/css/print.css" | minify }}
+{{ $print := resources.Get "assets/css/print.css" | minify | fingerprint }}
 <link rel="stylesheet" media="print" href="{{ $print.Permalink }}">
+
+<link rel="preload" href="/assets/fonts/fraunces-v10-latin-700.woff2" as="font" type="font/woff2" crossorigin> 
 
 {{ hugo.Generator }}
