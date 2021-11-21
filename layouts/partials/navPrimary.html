@@ -1,8 +1,7 @@
-{{ $current := . }}
 <nav class="primary">
     <ul>
         {{ range where .Site.Sections "Section" "!=" "about"}}
-        <li>{{ if eq .Permalink $current.Permalink}}<span class="on">{{.LinkTitle}}</span>{{else}}<a href="{{.Permalink}}" title="{{.Title}} ({{.Params.eglise}})">{{.LinkTitle}}</a>{{ end }}</li>
+        <li><a href="{{.Permalink}}" title="{{.Title}} ({{.Params.eglise}})">{{.LinkTitle}}</a></li>
         {{ end }}
     </ul>
 </nav>
