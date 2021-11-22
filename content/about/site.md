@@ -1,6 +1,6 @@
 ---
 title: Présenter une église sur son site
-linkTitle: Site web
+linkTitle: Aide site web
 description: Conseils pour documenter une église, un temple, une chapelle, une cathédrale ou une collégiale sur un site web.
 weight: 40
 ---

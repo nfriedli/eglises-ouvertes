@@ -1,6 +1,6 @@
 ---
 title: Inventaire suisse des biens culturels
-linkTitle: Biens culturels
+linkTitle: Biens culturels PBC
 description: Listes des églises ouvertes inscrites à l’Inventaire suisse des biens culturels d’importance nationale et régionale (PBC).
 weight: 20
 ---

@@ -1,6 +1,6 @@
 ---
 title: Vitraux protestants en Suisse romande
-linkTitle: Vitraux
+linkTitle: Vitraux protestants
 description: Liste des vitraux, triée par artiste, dans les églises ouvertes protestants réformées.
 weight: 10
 ---

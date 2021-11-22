@@ -1,6 +1,6 @@
 ---
 title: Foire aux questions (FAQ)
-linkTitle: FAQ
+linkTitle: Questions-réponses
 description: Une liste de questions-réponses pour essayer d’expliquer les enjeux et les choix du projet eglises-ouvertes.ch.
 weight: 30
 ---
@@ -98,7 +98,7 @@ L’absence de lien vers une fiche Google Maps peut signifier:
 - que la fiche Google Maps ne présente pas d’horaires ou qu’elle est trop sommaire
 - qu’il y a une incohérence entre le site officiel et la fiche Google Maps
 
-Dans tous les cas, il est conseiller d’[améliorer sa fiche Google Maps](/about/google/).
+Dans tous les cas, il est conseillé d’[améliorer sa fiche Google Maps](/about/google/).
 C’est possible que l’on en soit propriétaire ou non.
 
 ## Pourquoi ne pas proposer systématiquement un lien vers la paroisse responsable d’une église?
@@ -167,6 +167,13 @@ Il devrait obtenir de très bons résultats de performances au test Lighthouse.
 Les **données sont disponibles** à l’adresse [`/index.json`](/index.json).
 Elles sont toujours actualisées et le *hotlinking* est permis.
 Des fichiers `json` sur mesure ou une API peuvent être mise à disposition en cas de demande précise.
+
+## Comment soutenir l’initiative?
+
+C’est tout simple! En publiant un lien vers `eglises-ouvertes.ch` sur votre propre site. 
+Vous pouvez pointer vers la page d’accueil ou vers une page précise, au choix.
+
+Et n’hésitez pas à partager des pages sur les réseaux sociaux, dans un mail ou par une application de messagerie.
 
 ## Qui remercier pour ce site?
 

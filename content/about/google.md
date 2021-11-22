@@ -1,6 +1,6 @@
 ---
 title: Proposer une église dans Google Maps & My Business
-linkTitle: Google Maps
+linkTitle: Aide Google Maps
 description: Conseils pour proposer une église, un temple, une chapelle, une cathédrale ou une collégiale dans Google Maps et My Business.
 weight: 50
 ---

@@ -62,9 +62,6 @@
 
     <h2>Les églises ouvertes les plus proches</h2>
     
-    <small>NB: La distance est indicative et calculée à vol d’oiseau.</small>
-
-
     {{ $permalink := .Page.RelPermalink }}
     {{ $canton := .Page.Params.canton }}
     {{ range $index, $distances := $.Site.Data.distances }}
@@ -77,7 +74,7 @@
       {{ end }}
     {{ end }}
 
-
+NB: La distance est indicative et calculée à vol d’oiseau.
 
 
 {{ end }}
