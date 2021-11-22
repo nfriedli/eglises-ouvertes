@@ -11,11 +11,13 @@ Liste d’églises protestantes réformées ouvertes en Suisse romande.
 
 {{< cantons >}}
 
+La liste des cantons est toujours disponible dans le menu en haut de page.
+
 ## Pages utiles
 
 - [inventaire des biens culturels (patrimoine)](/about/biens-culturels/)
 - [artistes & vitraux](/about/vitraux/)
 - [recherche globale](/about/search/)
 
-
+La liste des pages utiles est toujours disponible dans le menu de bas de page.
 

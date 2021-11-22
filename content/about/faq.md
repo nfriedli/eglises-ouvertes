@@ -8,6 +8,21 @@ weight: 30
 Une liste de questions-réponses pour essayer d’expliquer les enjeux et les choix du projet `eglises-ouvertes.ch`.
 N’hésitez pas à en poser d’autres afin que cette foire aux questions s’améliore.
 
+{{< toc >}}
+
+## Quel est le but du projet?
+
+Ce site est né de la frustration de ne pas toujours trouver les informations utiles dans durant mes voyages.
+Le nom de domaine a été réservé le 26 octobre 2021.
+
+Des listes d’églises et des indications d’ouverture existent en ligne. 
+Toutefois, elles sont rarement systématiques et leur navigation est souvent pénible, notamment sur un téléphone.
+
+Ce site est destiné aux personnes qui se déplacent ou cherchent des bâtiment à visiter:
+
+- il présente des édifices ouverts
+- il dépasse les frontières cantonales
+
 ## Pourquoi la chapelle de X et le temple de Y ne sont pas dans la liste?
 
 Il est regrettable que des églises ouvertes réformées de Suisse romande n’apparaissent pas sur ce site.
@@ -17,8 +32,6 @@ Quelques explications possibles:
 - la page officielle et Google Maps de présentent pas d’horaire
 - le temps a manqué au responsable du site
 
-N’hésitez pas à signaler cette nouvelle église ouverte. Merci.
-
 ## Comment ajouter une église ouverte?
 
 Il suffit d’envoyer un message au responsable du site, en indiquant:
@@ -27,9 +40,34 @@ Il suffit d’envoyer un message au responsable du site, en indiquant:
 - le lien vers sa page officielle (avec horaire d’ouverture) ou la mention d’une fiche Google Maps (avec horaires d’ouverture)
 - toute autre information utile (par exemple une inscription à l’inventaire PBC)
 
-Les églises ouvertes doivent présenter des **horaires simples et compréhensibles**, si possible 7/7 et heures identiques tous les jours.
+Les églises ouvertes doivent présenter des **horaires simples et compréhensibles**. 
+L’ouverture doit être 7/7 et les heures identiques tous les jours.
 
 Si l’horaire n’est présent ni sur la page officielle, ni sur Google Maps, l’édifice ne sera pas publié.
+
+## Comment transmettre des informations précises?
+
+Idéalement, les données sont transmises au format `json`.
+Les édifices sont saisis selon ce modèle:
+
+```
+"title":        "Temple de Petauchnok",
+"site":         "https://www.petaouchnok.ch/temple/",
+"maps":         "https://goo.gl/maps/3KSuvNTqXsdSFmnc9",
+"rue":          "Rue de Petropavlovsk 666",
+"NPA":          1234,
+"localite":     "Petaouchnok",
+"commune":      "St-Creux-des-Bas-Fonds",
+"canton":       "Perpette",
+"latitude":     46.9666066,
+"longitude":    6.8623137,
+"ouverture":    "7/7",
+"horaire":      "8:00-20:00"
+"pbc":          "B",
+"vitraux":      ["Michael Meyers", "Jamie Lee Curtis"]
+```
+
+Mais toute transmission d’informations sera utile!
 
 ## Quel tarif pour publier «mon» bâtiment?
 
@@ -75,16 +113,6 @@ Pourtant, un lien vers un site paroissial est toujours proposé si la page de pr
 
 Pour les recherches spécifiquement paroissiale, il existe le site [Trouver ma paroisse](https://ma-paroisse.ch/).
 
-## Pourquoi ne pas proposer de navigation par canton?
-
-La proximité est plus importante que l’appartenance cantonale. 
-C’est particulièrement vrai dans notre petite Suisse romande, où les frontières cantonales sont parfois étonnantes.
-
-Au vu du nombre croissant d’églises ouvertes, la navitation par canton est désormais proposée dès l’accueil.
-Pour rappel, les pages cantonales du site:
-
-{{< cantons >}}
-
 ## Pourquoi se limiter aux Églises protestantes réformées de Suisse romande?
 
 Parce que le *corpus* semble raisonnable et gérable pour un *webmaster* dilettante et bénévole.
@@ -113,17 +141,41 @@ C’est souvent de l’esbroufe.
 Sa pratique peut être difficile sur un smartphone.
 Au fond, l’application Google Maps est souvent meilleure que des cartes intégrées.
 
-
 Si le sujet vous intéresse, il est possible d’essayer cette [carte d’églises ouvertes](https://www.google.com/maps/d/edit?mid=1Pcez6C5gfwDuFniiIsa_EK9xS5fl7uDu&usp=sharing) (pas forcément à jour).
 
-## Pourquoi il n’y a pas de moteur de recherche?
+## Pourquoi est-il si sobre? 
 
-Il existe un [moteur de recherche](/about/search/) encore en phase de tests. 
-Pourtant, la navigation de proche en proche semble la plus intéressante pour découvrir le site.
+C’est un site d’information, qui peut être utilisé par quiconque sur un *smartphone*.
+Il est volontairement simple et léger.
 
-## Pourquoi le dépôt GitHub n’est pas public?
+## Pourquoi ce site est-il sans images?
 
-Ce site est une expérience et un apprentissage d’un nouvel outil et d’un nouveau langage de programmation.
-Le code n’est pas assez propre pour le moment.
+Il n’est pas possible de trouver des images libres de droits de tous les édifices présentés.
+Mais la fourniture d’images libre de qualité pourrait faire changer les responsable d’avis.
 
-Toutefois, les données utilisées sont disponibles en tout temps à l’adresse [`/index.json`](/index.json).
+Toutefois, des images sont automatiquement générées pour les partages sur les réseaux sociaux.
+
+## Pourquoi ce site est aussi rapide?
+
+Le site `eglises-ouvertes.ch` est servi par Netlify, compilé par génial [Hugo](https://gohugo.io/) et maintenu sur [GitHub](https://github.com/nfriedli/eglises-ouvertes).
+Il respecte au mieux les standards HTML et CSS.
+Il vise les meilleurs scores d’accessibilité (a11y) WAVE.
+Il devrait obtenir de très bons résultats de performances au test Lighthouse.
+
+## Comment réutiliser les données automatiquement?
+
+Les **données sont disponibles** à l’adresse [`/index.json`](/index.json).
+Elles sont toujours actualisées et le *hotlinking* est permis.
+Des fichiers `json` sur mesure ou une API peuvent être mise à disposition en cas de demande précise.
+
+## Qui remercier pour ce site?
+
+Pour leur soutien, leurs avis, leurs contributions et leurs outils libres, merci à:
+
+- [Maëlle Bader](https://www.referguel.ch/paroisses/courtelary-cormoret/), pasteure
+- [Joël Burri](https://www.reformes.ch/blog/joel-burri), journaliste
+- [Diane Friedli](https://dianefriedli.ch/), pasteure
+- [David Kneubühler](https://www.referguel.ch/paroisses/corgemont-cortebert/), pasteur
+- [Bjørn Erik Pedersen](https://bep.is/en/), créateur de Hugo, générateur utilisé actuellement
+- [Kiro Risk](https://fusejs.io/team.html), créateur de fuse.js, utilisé pour la recherche
+- [Zach Leatherman](https://www.zachleat.com/), créateur d’Eleventy (11ty), générateur utilisé pour la première version du site

@@ -11,8 +11,8 @@ Contact: nicolas.friedli+eo@gmail.com
 Le site est généré par Hugo: https://gohugo.io/ (version standard suffisante)
 
 Le calcul des distances est effectué par le script `distances.js` à la racine du projet.
-Il requiert l'installation de `node.js`.
-`npm install` permet d'installer `geolib`.
+Il requiert l’installation de `node.js`.
+`npm install` permet d’installer `geolib`.
 
 Pour une compilation complète:
 
@@ -22,13 +22,13 @@ Pour une compilation complète:
 
 ## Fichiers spéciaux
 
-- `/data/vitraux.json` permet d'entrer des dates pour les artistes
-- `/config/_default/config.yaml` permet d'éditer le titre du site et le pied de page
+- `/data/vitraux.json` permet d’entrer des dates pour les artistes
+- `/config/_default/config.yaml` permet d’éditer le titre du site et le pied de page
 
 ## Layouts
 
 - `/layouts/_default/list.html` est utilisé pour les pages cantonales
-- `/layouts/_default/single.html` est utilisé pour les pages d'églises
+- `/layouts/_default/single.html` est utilisé pour les pages d’églises
 - `/layouts/about/search.html` est utilisé pour la page de recherche
 
 ## Shortcodes
@@ -40,11 +40,11 @@ Pour une compilation complète:
 
 ## Réutilisation
 
-L'ensemble des fichiers peut être réutilisé librement, sauf:
+L’ensemble des fichiers peut être réutilisé librement, sauf:
 
 - `fuse.js` pour la recherche
-- *Fraunces*, la police d'écriture des titres
-- le code d'image `opengraph` chez Cloudinary
+- *Fraunces*, la police d’écriture des titres
+- le code d’image `opengraph` chez Cloudinary
 - `geolib` à installer avant calcul des distances
 
 Merci de vérifier les licences ;)

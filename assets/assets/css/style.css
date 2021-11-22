@@ -64,15 +64,15 @@ h2 {
     margin-bottom: .5rem;
 }
 
-header a, nav a {
+header a, nav.main a {
     text-decoration: none;;
 }
 
-nav, footer {
+nav.main, footer {
     font-size: .9rem;
 }
 
-nav ul {
+nav.main ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -80,7 +80,7 @@ nav ul {
     flex-wrap: wrap;
 }
 
-nav ul li {
+nav.main ul li {
     background-color: var(--light);
     border-radius: 5px;
     margin: .5rem;

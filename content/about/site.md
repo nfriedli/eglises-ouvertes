@@ -12,6 +12,8 @@ C’est un passage obligé pour faire connaître les lieux qui vous sont chers.
 Quelques principes simples permettent d’être utiles aux internautes.
 Il y a un peu de travail au début, mais il est toujours pertinent dans la durée.
 
+{{< toc >}}
+
 ## Une page par église
 
 Pour faciliter le référencement de votre église, chapelle, temple, cathédrale ou collégiale, il est important de présenter une page par bâtiment.

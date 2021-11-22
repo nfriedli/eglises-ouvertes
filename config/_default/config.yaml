@@ -15,6 +15,11 @@ disableKinds:
   - term
   - 404
 
+markup:
+  goldmark:
+    parser:
+      autoHeadingIDType: github-ascii
+
 outputs:
   home:
   - HTML

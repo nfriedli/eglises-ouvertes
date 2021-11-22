@@ -9,6 +9,7 @@ Les données de Google Maps s’affichent sont très visibles dans les résultat
 Elles sont affichées lorsque la requête correspond sans trop de doutes à la fiche en question.
 C’est un endroit privilégié pour faire connaître son patrimoine, de même que la première position des résultats.
 
+{{< toc >}}
 
 ## Avantages de Google Maps
 
@@ -74,10 +75,8 @@ La cohérence est particulièrement importante pour:
 
 **Voir aussi:** [présenter une église sur son site web](/about/site/)
 
-Un bon indice de cohérence est l’affichage de pages web directement dans la fiche Google Maps:
-
+Un bon indice de cohérence est l’affichage de pages web directement dans la fiche Google Maps.
 Si la page de présentation de votre site apparaît en haut de liste, c’est que la correspondance est évidente pour le moteur de recherche.
-
 Quand les résultats ne sont pas cohérents, il faut modifier soit le site, soit la fiche Google Maps.
 
 ## Ma proposition
