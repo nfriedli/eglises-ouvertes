@@ -4,9 +4,15 @@ title:          Églises ouvertes
 defaultContentLanguage: fr
 languageCode:   fr-ch
 
+canonifyURLs: true
+copyright: CC0 (domaine public)
 disableFastRender: true
 cleanDestinationDir: true
 removePathAccents: true
+
+author:
+  name: Nicolas Friedli
+  email: nicolas.friedli+eo@gmail.com
 
 disableKinds:
   - RSS
@@ -22,8 +28,13 @@ markup:
 
 outputs:
   home:
-  - HTML
-  - JSON
+    - html
+    - json
+  section:
+    - html
+    - json
+  page:
+    - html
 
 params:
   description: édifices protestants réformés en Suisse romande

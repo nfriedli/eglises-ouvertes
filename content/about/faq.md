@@ -168,6 +168,8 @@ Les **données sont disponibles** à l’adresse [`/index.json`](/index.json).
 Elles sont toujours actualisées et le *hotlinking* est permis.
 Des fichiers `json` sur mesure ou une API peuvent être mise à disposition en cas de demande précise.
 
+Des fichiers `json` par canton sont disponibles en ajoutant `index.json` à l’URL.
+
 ## Comment soutenir l’initiative?
 
 C’est tout simple! En publiant un lien vers `eglises-ouvertes.ch` sur votre propre site. 

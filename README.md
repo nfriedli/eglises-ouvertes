@@ -6,6 +6,19 @@ Site: https://eglises-ouvertes.ch/
 
 Contact: nicolas.friedli+eo@gmail.com
 
+## API
+
+L’ensemble des données du site est disponible en `json` en lecture seule: 
+
+- https://eglises-ouvertes.ch/index.json
+
+Un `json` est produit par canton, par exemple:
+
+- https://eglises-ouvertes.ch/berne/index.json
+- https://eglises-ouvertes.ch/jura/index.json
+
+Le `hotlinking` (raisonnable) est possible.
+
 ## Compilation
 
 Le site est généré par Hugo: https://gohugo.io/ (version standard suffisante)
