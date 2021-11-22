@@ -1,18 +1,11 @@
 
 {{ define "main" }}
 
-    {{ with .Content }}
-        {{ . }}
-    {{ else }}
-        {{ .Description | markdownify }}
-    {{ end }}
-    
+    {{ .Content }}
+
     <ul>
     {{ range .RegularPages }}
         <li><h2><a href="{{ .Permalink}}">{{ .Title }}</a></h2>{{.Params.description}}</li>
     {{ end }}
     </ul> 
-
-
-    
 {{ end }}
