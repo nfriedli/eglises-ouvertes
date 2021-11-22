@@ -2,7 +2,7 @@
     "title": "Temple de Villeret",
     "site": "https://visitedeglise.ch/lieux/lieux-par-region/jura/271-tramelan-temple",
     "rue": "Rue Principale 31",
-    "npa": 2720,
+    "npa": 2613,
     "commune": "Villeret",
     "canton": "Berne",
     "latitude": 47.15656,
