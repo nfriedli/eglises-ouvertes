@@ -12,8 +12,7 @@
   {{ partialCached "head.html" . }}
   {{ block "ld-json" . }} {{ end }}
   {{ template "_internal/google_analytics.html" . }}
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
+  {{ partial "opengraph.html" . }}
 </head>
 
 <body>
