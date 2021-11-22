@@ -21,10 +21,11 @@ outputs:
   - JSON
 
 params:
-  description: Liste d’églises protestantes réformées ouvertes en Suisse romande
+  description: édifices protestants réformés en Suisse romande
   images:
     - https://pixabay.com/fr/photos/l%c3%a9ger-chapelle-%c3%a9glise-architecture-3176887/
     - https://pixabay.com/fr/photos/%c3%a9glise-islande-l-%c3%a9glise-noire-4964183/
   footer: |
-      **Infos utiles:** [Licence CC0](https://fr.wikipedia.org/wiki/Licence_CC0), [GitHub](https://github.com/nfriedli/eglises-ouvertes)  
-      **Liens conseillés:** [Réseau protestant](https://reseau-protestant.ch/liste/), [Trouver ma paroisse](https://ma-paroisse.ch/)
+      **Licence:** [Creative Commons Zero (CC0)](https://fr.wikipedia.org/wiki/Licence_CC0)  
+      **Code source:** [GitHub](https://github.com/nfriedli/eglises-ouvertes)  
+      **Liens conseillés:** [Réseau protestant](https://reseau-protestant.ch/liste/) & [Trouver ma paroisse](https://ma-paroisse.ch/)

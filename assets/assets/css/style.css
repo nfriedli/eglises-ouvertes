@@ -5,7 +5,7 @@
     --contrast: hsl(310, 80%, 40%);
     
     --font-main: Inter, Roboto, system-ui, -apple-system, sans-serif;
-    --font-titling: Fraunces;
+    --font-titling: Fraunces, Georgia, sans-serif;
     --font-mono: "Fira Code", "Fira Sans Mono", "Roboto Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
 
@@ -82,8 +82,10 @@ nav ul {
 
 nav ul li {
     background-color: var(--light);
-    padding: .1rem .2rem;
-    margin: .3rem;
+    border-radius: 5px;
+    margin: .5rem;
+    padding: .2rem .3rem;
+    flex-shrink: 2;
 }
 
 blockquote {
