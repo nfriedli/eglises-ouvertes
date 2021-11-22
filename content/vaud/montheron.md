@@ -1,7 +1,7 @@
 {
     "title": "Temple de Montheron",
     "site": "https://www.eerv.ch/region/les-chamberonnes/le-haut-talent/eglises/ancienne-abbaye-de-montheron-et-temple-actuel",
-    "rue": "Route de l'Abbaye 2",
+    "rue": "Route de l’Abbaye 2",
     "npa": 1053,
     "localite": "Cugy",
     "commune": "Lausanne",
