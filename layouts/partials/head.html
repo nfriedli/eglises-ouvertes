@@ -1,8 +1,8 @@
-{{ $style := resources.Get "assets/css/style.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ $style := resources.Get "assets/css/style.css" | minify  }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
-{{ $print := resources.Get "assets/css/print.css" | minify | fingerprint }}
-<link rel="stylesheet" media="print" href="{{ $print.Permalink }}">
+{{ $print := resources.Get "assets/css/print.css" | minify  }}
+<link rel="stylesheet" media="print" href="{{ $print.RelPermalink }}">
 
 <link rel="preload" href="/assets/fonts/fraunces-v10-latin-700.woff2" as="font" type="font/woff2" crossorigin> 
 

@@ -4,7 +4,7 @@ title:          Églises ouvertes
 defaultContentLanguage: fr
 languageCode:   fr-ch
 
-canonifyURLs: true
+# canonifyURLs: true
 copyright: CC0 (domaine public)
 disableFastRender: true
 cleanDestinationDir: true

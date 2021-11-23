@@ -13,7 +13,7 @@
     
     <ul>
     {{ range sort .RegularPages "File.BaseFileName" }}
-        <li><a href="{{ .Permalink}}">{{ .Title }}</a>{{ if .Params.localite }} <small>({{ .Params.commune }})</small>{{ end }}</li>
+        <li><a href="{{ .RelPermalink}}">{{ .Title }}</a>{{ if .Params.localite }} <small>({{ .Params.commune }})</small>{{ end }}</li>
     {{ end }}
     </ul> 
 

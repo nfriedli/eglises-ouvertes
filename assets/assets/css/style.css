@@ -85,9 +85,14 @@ nav.main ul {
 nav.main ul li {
     background-color: var(--light);
     border-radius: 5px;
+    margin: 0;
     padding: .2rem .3rem;
     text-align: center;
     flex-grow: 3;
+}
+
+ul li {
+    margin-top: .3rem;
 }
 
 blockquote {
