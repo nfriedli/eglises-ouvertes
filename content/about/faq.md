@@ -10,6 +10,14 @@ N’hésitez pas à en poser d’autres afin que cette foire aux questions s’a
 
 {{< toc >}}
 
+## Qu’est-ce qu’une «église ouverte»?
+
+La définition utilisée ici est simple:
+
+> Une «église ouverte» est un *bâtiment* qu’il est possible de visiter librement et gratuitement, hors de toute manifestation cultuelle ou culturelle.
+
+Ce site ne mentionne pas les *manifestation* religieuses ou spirituelles appelées «Églises ouvertes» (souvent avec majuscule).
+
 ## Quel est le but du projet?
 
 Ce site est né de la frustration de ne pas toujours trouver les informations utiles dans durant mes voyages.

@@ -3,9 +3,8 @@ title: Églises ouvertes
 description: Liste d’églises protestantes réformées ouvertes en Suisse romande.
 ---
 
-Liste d’églises protestantes réformées ouvertes en Suisse romande.
-
-> Une *église ouverte* est un bâtiment qu’il est possible de visiter librement et gratuitement, hors de toute manifestation cultuelle ou culturelle.
+Présentation systématique de toutes les églises protestantes réformées ouvertes en Suisse romande.
+Une «église ouverte» est un *bâtiment* qu’il est possible de visiter librement et gratuitement, hors de toute manifestation cultuelle ou culturelle.
 
 ## Navigation par canton
 
