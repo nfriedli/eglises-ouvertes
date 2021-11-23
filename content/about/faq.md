@@ -179,12 +179,15 @@ Et n’hésitez pas à partager des pages sur les réseaux sociaux, dans un mail
 
 ## Qui remercier pour ce site?
 
-Pour leur soutien, leurs avis, leurs contributions et leurs outils libres, merci à:
+Pour leur soutien, leurs avis et leurs contributions, merci à:
 
 - [Maëlle Bader](https://www.referguel.ch/paroisses/courtelary-cormoret/), pasteure
 - [Joël Burri](https://www.reformes.ch/blog/joel-burri), journaliste
 - [Diane Friedli](https://dianefriedli.ch/), pasteure
 - [David Kneubühler](https://www.referguel.ch/paroisses/corgemont-cortebert/), pasteur
-- [Bjørn Erik Pedersen](https://bep.is/en/), créateur de Hugo, générateur utilisé actuellement
-- [Kiro Risk](https://fusejs.io/team.html), créateur de fuse.js, utilisé pour la recherche
+
+Pour leurs outils libres et performants, merci à:
+
+- [Bjørn Erik Pedersen](https://bep.is/en/), créateur de Hugo, générateur de site statique utilisé actuellement
+- [Kiro Risk](https://fusejs.io/team.html), créateur de fuse.js, script de recherche
 - [Zach Leatherman](https://www.zachleat.com/), créateur d’Eleventy (11ty), générateur utilisé pour la première version du site

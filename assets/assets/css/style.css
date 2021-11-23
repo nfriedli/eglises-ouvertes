@@ -72,6 +72,10 @@ nav.main, footer {
     font-size: .9rem;
 }
 
+nav#TableOfContents {
+    background: var(--light);
+}
+
 nav.main ul {
     margin: 0;
     padding: 0;
