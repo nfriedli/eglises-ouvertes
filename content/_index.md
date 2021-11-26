@@ -1,6 +1,6 @@
 ---
 title: Églises ouvertes
-description: Liste d’églises protestantes réformées ouvertes en Suisse romande.
+description: Bâtiments protestants ouverts en Suisse romande. L’occasion de visiter le patrimoine religieux réformé.
 ---
 
 Présentation systématique de toutes les églises protestantes réformées ouvertes en Suisse romande.
