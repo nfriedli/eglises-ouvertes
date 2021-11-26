@@ -85,6 +85,9 @@ Le travail fourni pour `eglises-ouvertes.ch` est bénévole et réalisé en tout
 
 ## Comment modifier une page existante?
 
+**Remarque.**
+Le système de commentaire Disqus, qui restera activé quelques semaines, permet d’apporter vos remarques et suggestions facilement.
+
 Vous ne pouvez pas modifier une page, mais vous pouvez suggérer des modifications à l’auteur de site.
 Merci, en particulier, de **signaler au plus vite** des changements d’horaires d’ouverture ou des erreurs.
 
@@ -164,6 +167,10 @@ Mais la fourniture d’images libre de qualité pourrait faire changer les respo
 Toutefois, des images sont automatiquement générées pour les partages sur les réseaux sociaux.
 
 ## Pourquoi ce site est aussi rapide?
+
+**Remarque.** 
+En phase de récolte des données, le système de commentaire Disqus est utilisé. 
+Il ralentit considérablement le site mais permet des réactions simplifiées.
 
 Le site `eglises-ouvertes.ch` est servi par Netlify, compilé par génial [Hugo](https://gohugo.io/) et maintenu sur [GitHub](https://github.com/nfriedli/eglises-ouvertes).
 Il respecte au mieux les standards HTML et CSS.

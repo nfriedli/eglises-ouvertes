@@ -152,6 +152,14 @@ ul.search-results {
     min-height: 10rem;
 }
 
+/* Disqus */
+
+div#disqus_thread  {
+    padding: 1rem;
+}
+
+/* Titraille */
+
 @font-face {
     font-family: Fraunces;
     font-style: normal;
