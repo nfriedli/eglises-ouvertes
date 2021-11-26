@@ -9,6 +9,7 @@ copyright: CC0 (domaine public)
 disableFastRender: true
 cleanDestinationDir: true
 removePathAccents: true
+enableGitInfo: true
 
 author:
   name: Nicolas Friedli
@@ -20,6 +21,15 @@ disableKinds:
   - taxonomy
   - term
   - 404
+
+frontmatter:
+  date:
+    - date
+    - lastmod
+  lastmod:
+    - lastmod
+    - :filemodtime
+    - date
 
 markup:
   goldmark:
