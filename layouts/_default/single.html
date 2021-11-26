@@ -103,3 +103,11 @@
   }
   </script>
 {{ end }}
+
+{{ define "geo-tag"}}
+<meta name="DC.title" content="{{ .Title }}">
+<meta name="geo.region" content="CH-{{.Parent.Params.abreviation}}">
+<meta name="geo.placename" content="{{with .Params.localite}}{{ . }}{{else}}{{.Params.commune}}{{end}}">
+<meta name="geo.position" content="{{.Params.latitude}};{{.Params.longitude}}">
+<meta name="ICBM" content="{{.Params.latitude}}, {{.Params.longitude}}">
+{{ end }}

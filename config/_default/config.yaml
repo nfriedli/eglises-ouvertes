@@ -28,8 +28,7 @@ frontmatter:
     - lastmod
   lastmod:
     - lastmod
-    - :filemodtime
-    - date
+    - :git
 
 markup:
   goldmark:
