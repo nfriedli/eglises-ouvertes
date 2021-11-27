@@ -6,8 +6,7 @@
   {{ with .Params.description }}
     <meta name="description" content="{{.}}">
   {{ else }}
-  <meta name="description" content="{{.Params.ouverture}} - {{.Params.horaire}} - {{.Params.rue}}, {{.Params.npa}} 
-    {{- if .Params.localite }} {{ .Params.localite }} ({{.Params.commune}}){{- else }} {{ .Params.commune }}{{- end -}}, {{ .Parent.LinkTitle }}{{- with .Params.pbc }}, {{ if eq . "A"}}catégorie A (importance nationale){{else}}catégorie B (importance régionale){{end}}{{ end }}.">
+  <meta name="description" content="&#128467; {{.Params.ouverture}} - &#8986; {{.Params.horaire}} - &#128506; {{.Params.rue}}, {{.Params.npa}} {{- if .Params.localite }} {{ .Params.localite }} ({{.Params.commune}}){{- else }} {{ .Params.commune }}{{- end -}}, {{ .Parent.LinkTitle }}{{- with .Params.pbc }} - {{ if eq . "A"}}&#127775; catégorie A (importance nationale){{else}}&#11088; catégorie B (importance régionale){{end}}{{ end }}.">
   {{ end }}
 {{ end }}
 
