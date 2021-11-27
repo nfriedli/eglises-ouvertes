@@ -16,6 +16,8 @@ Suisse
 [+41 32 841 48 74](tel:+41328414874) (urgences uniquement)  
 [+41 79 344 33 82](tel:+41793443382) (Threema, Signal, SMS, Telegram, ~~WhatsApp~~)
 
+Si ce projet vous plaît, vous pouvez utiliser mon numéro de portable pour **m’offrir un café par Twint**!
+
 Je suis disponible pour vous aider à:
 - [gérer votre fiche Google Maps](/about/google/) ou
 - [évaluer votre page de présentation sur votre site](/about/site/)

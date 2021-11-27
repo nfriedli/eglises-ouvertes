@@ -189,8 +189,9 @@ Des fichiers `json` par canton sont disponibles en ajoutant `index.json` à l’
 
 C’est tout simple! En publiant un lien vers `eglises-ouvertes.ch` sur votre propre site. 
 Vous pouvez pointer vers la page d’accueil ou vers une page précise, au choix.
+N’hésitez pas à partager des pages sur les réseaux sociaux, dans un mail ou par une application de messagerie.
 
-Et n’hésitez pas à partager des pages sur les réseaux sociaux, dans un mail ou par une application de messagerie.
+Vous pouvez aussi [m’offrir un café par Twint](/about/contact/).
 
 ## Qui remercier pour ce site?
 
