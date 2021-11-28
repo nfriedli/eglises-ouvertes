@@ -9,7 +9,7 @@ copyright: CC0 (domaine public)
 disableFastRender: true
 cleanDestinationDir: true
 removePathAccents: true
-enableGitInfo: true
+# enableGitInfo: true
 
 author:
   name: Nicolas Friedli
