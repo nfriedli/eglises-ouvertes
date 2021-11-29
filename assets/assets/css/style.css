@@ -4,7 +4,7 @@
     --light: hsl(50, 30%, 90%);
     --contrast: hsl(310, 80%, 40%);
     
-    --font-main: Inter, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    --font-main: Lato, "Open Sans", Inter, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     --font-titling: Fraunces, Georgia, sans-serif;
     --font-mono: Hack, "Fira Code", "Fira Sans Mono", "Roboto Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",monospace;
 }
