@@ -1,6 +1,6 @@
 {
-    "title": "Église Sainte-Marie-Madelaine à Rossinière",
-    "nomCourt": "Église Sainte-Marie-Madelaine",
+    "title": "Église Sainte-Marie-Madeleine à Rossinière",
+    "nomCourt": "Église Sainte-Marie-Madeleine",
     "site": "https://www.chateau-doex.ch/fr/P9998/l-eglise-de-rossiniere",
     "rue": "Chemin de l’Église 20",
     "npa": 1658,
