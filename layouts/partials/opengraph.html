@@ -1,8 +1,33 @@
+{{ $font1 := resources.Get "https://github.com/undercasetype/Fraunces/raw/master/fonts/static/ttf/Fraunces72ptSoft-Black.ttf" }}
+{{ $font2 := resources.Get "https://github.com/undercasetype/Fraunces/raw/master/fonts/static/ttf/Fraunces9pt-Regular.ttf" }}
+
+{{ $img := resources.Get "/images/opengraph.jpg"}}
+
+{{ $img = $img.Filter (images.Text .Title (dict
+    "font" $font1
+    "size" 80
+    "color" "#000"
+    "linespacing" 1.5
+    "hinting" "full"
+    "x" 20
+    "y" 20
+))}}
+
+{{ $img = $img.Filter (images.Text "eglises-ouvertes.ch" (dict
+    "font" $font2
+    "size" 40
+    "color" "#000"
+    "linespacing" 1.5
+    "hinting" "full"
+    "x" 20
+    "y" 550
+))}}
+
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://res.cloudinary.com/dbxwoay0d/image/upload/c_limit,co_rgb:ffffff,l_text:poppins_100_bold:{{.Title}},w_1100/v1636472405/opengraph_ssglmc.jpg"/>
+<meta name="twitter:image" content="{{$img.Permalink}}"/>
 <meta name="twitter:title" content="{{ .Title }}"/>
 
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:image" content="https://res.cloudinary.com/dbxwoay0d/image/upload/c_fit,co_rgb:ffffff,l_text:poppins_100_bold:{{.Title}},w_1100/v1636472405/opengraph_ssglmc.jpg" />
+<meta property="og:image" content="{{$img.Permalink}}" />

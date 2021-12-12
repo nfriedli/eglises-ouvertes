@@ -1,6 +1,6 @@
 {
-    "title": "Collégiale de Saint-Imier",
-    "site": "https://www.referguel.ch/paroisses/saint-imier/histoire-du-lieu/",
+    "title": "Collégiale de Saint Imier",
+    "site": "https://www.referguel.ch/paroisses/Saint imier/histoire-du-lieu/",
     "rue": "Place du Marché 10",
     "npa": 2610,
     "commune": "Saint-Imier",
