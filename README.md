@@ -21,7 +21,7 @@ Le `hotlinking` (raisonnable) est possible.
 
 ## Compilation
 
-Le site est généré par Hugo: https://gohugo.io/ (version standard suffisante)
+Le site est généré par Hugo: https://gohugo.io/ (version 0.91 minimale)
 
 Le calcul des distances est effectué par le script `distances.js` à la racine du projet.
 Il requiert l’installation de `node.js`.
