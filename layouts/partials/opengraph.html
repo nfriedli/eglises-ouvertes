@@ -3,16 +3,6 @@
 
 {{ $img := resources.Get "/images/opengraph.jpg"}}
 
-{{ $img = $img.Filter (images.Text .Title (dict
-    "font" $font1
-    "size" 80
-    "color" "#000"
-    "linespacing" 1.5
-    "hinting" "full"
-    "x" 20
-    "y" 20
-))}}
-
 {{ $img = $img.Filter (images.Text "eglises-ouvertes.ch" (dict
     "font" $font2
     "size" 40
@@ -21,6 +11,14 @@
     "hinting" "full"
     "x" 20
     "y" 550
+)).Filter (images.Text .Title (dict
+    "font" $font1
+    "size" 80
+    "color" "#000"
+    "linespacing" 1.5
+    "hinting" "full"
+    "x" 20
+    "y" 20
 ))}}
 
 <meta name="twitter:card" content="summary_large_image"/>
