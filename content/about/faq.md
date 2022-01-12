@@ -197,10 +197,12 @@ Vous pouvez aussi [m’offrir un café par Twint](/about/contact/).
 
 Pour leur soutien, leurs avis et leurs contributions, merci à:
 
+- Constantin Bacha, pasteur
 - [Maëlle Bader](https://www.referguel.ch/paroisses/courtelary-cormoret/), pasteure
 - [Joël Burri](https://www.reformes.ch/blog/joel-burri), journaliste
 - [Diane Friedli](https://dianefriedli.ch/), pasteure
 - [David Kneubühler](https://www.referguel.ch/paroisses/corgemont-cortebert/), pasteur
+- [Jean-Marc Leresche](https://jeanmarcleresche.ch/), diacre
 
 Pour leurs outils libres et performants, merci à:
 
