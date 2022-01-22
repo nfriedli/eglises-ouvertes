@@ -36,6 +36,14 @@ Linux:
 
     ./distances
 
+Mac (Intel):
+
+    ./distances-intel.app
+
+Mac (M1):
+
+    ./distances-m1.app
+
 La source est disponible en Go (`distances.go`).
 Elle peut être lancée en direct (`go run distances.go`) ou compilée pour d'autres plateformes.
 
@@ -53,9 +61,12 @@ Pour lancer le calcul:
 
 ### Compilation complète
 
-- `hugo` (crée notamment le fichier `/public/index.json`)
-- `distances.exe` ou `./distances` (utilise le fichier `/public/index.json` et crée le fichier `/data/distances.json`)
-- `hugo` (utilise le fichier `/data/distances.json`)
+- `hugo`  
+  (crée notamment le fichier `/public/index.json`)
+- `./distances.exe` ou `./distances` ou `./distances-intel.app` ou `./distances-m1.app`  
+  (utilise le fichier `/public/index.json` et crée le fichier `/data/distances.json`)
+- `hugo`  
+  (utilise le fichier `/data/distances.json`)
 
 ## Fichiers spéciaux
 
