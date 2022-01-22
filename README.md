@@ -23,14 +23,38 @@ Le `hotlinking` (raisonnable) est possible.
 
 Le site est généré par Hugo: https://gohugo.io/ (version 0.91 minimale)
 
+### Calcul des distances (nouveau)
+
+Le calcul des distances est effectué par un petit programme.
+Il se trouve à la racine du projet.
+
+Windows:
+
+    distances.exe
+
+Linux:
+
+    ./distances
+
+La source est disponible en Go (`distances.go`).
+Elle peut être lancée en direct (`go run distances.go`) ou compilée pour d'autres plateformes.
+
+### Calcul des distances (ancien)
+
+**L'utilisation de la méthode ci-dessus est recommandée.**
+
 Le calcul des distances est effectué par le script `distances.js` à la racine du projet.
 Il requiert l’installation de `node.js`.
 `npm install` permet d’installer `geolib`.
 
-Pour une compilation complète:
+Pour lancer le calcul:
+
+    node distances.js
+
+### Compilation complète
 
 - `hugo` (crée notamment le fichier `/public/index.json`)
-- `node distances.js` (utilise le fichier `/public/index.json` et crée le fichier `/data/distances.json`)
+- `distances.exe` ou `./distances` (utilise le fichier `/public/index.json` et crée le fichier `/data/distances.json`)
 - `hugo` (utilise le fichier `/data/distances.json`)
 
 ## Fichiers spéciaux
@@ -57,7 +81,7 @@ L’ensemble des fichiers peut être réutilisé librement, sauf:
 
 - `fuse.js` pour la recherche
 - *Fraunces*, la police d’écriture des titres
-- le code d’image `opengraph` chez Cloudinary
-- `geolib` à installer avant calcul des distances
+- ~~le code d’image `opengraph` chez Cloudinary~~
+- ~~`geolib` à installer avant calcul des distances pour l'ancienne version en `js`~~
 
 Merci de vérifier les licences ;)
