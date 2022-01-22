@@ -67,7 +67,7 @@
       {{ if eq $index $permalink }}
       <ul> 
           {{ range $lieu := $distances }}
-            <li><a href="{{$lieu.url}}">{{$lieu.nom}}</a>{{ if ne $lieu.canton $canton }} <small>({{$lieu.canton}})</small>{{ end }} à {{$lieu.distance}}km</li>
+            <li><a href="{{$lieu.url}}">{{$lieu.nom}}</a>{{ if ne $lieu.canton $canton }} <small>({{$lieu.canton}})</small>{{ end }} à {{ div (math.Round (mul $lieu.distance 10)) 10 }}km</li>
           {{ end }}
           </ul>
       {{ end }}
