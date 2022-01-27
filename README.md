@@ -45,11 +45,11 @@ Mac (M1):
     ./distances-m1.app
 
 La source est disponible en Go (`distances.go`).
-Elle peut être lancée en direct (`go run distances.go`) ou compilée pour d'autres plateformes.
+Elle peut être lancée en direct (`go run distances.go`) ou compilée pour d’autres plateformes.
 
-### Calcul des distances (ancien)
+### Calcul des distances (en js)
 
-**L'utilisation de la méthode ci-dessus est recommandée.**
+**L’utilisation de la méthode ci-dessus est recommandée.**
 
 Le calcul des distances est effectué par le script `distances.js` à la racine du projet.
 Il requiert l’installation de `node.js`.
@@ -58,6 +58,17 @@ Il requiert l’installation de `node.js`.
 Pour lancer le calcul:
 
     node distances.js
+
+### Calcul des distances (en Python)
+
+**L’utilisation de la première méthode est recommandée.**
+
+Un script de calcul en Python existe.
+Il est lancé par 
+
+    ./distances.py
+
+Évidemment, il exige un Python fonctionnel sur l’ordinateur.
 
 ### Compilation complète
 
@@ -93,6 +104,6 @@ L’ensemble des fichiers peut être réutilisé librement, sauf:
 - `fuse.js` pour la recherche
 - *Fraunces*, la police d’écriture des titres
 - ~~le code d’image `opengraph` chez Cloudinary~~
-- ~~`geolib` à installer avant calcul des distances pour l'ancienne version en `js`~~
+- ~~`geolib` à installer avant calcul des distances pour l’ancienne version en `js`~~
 
 Merci de vérifier les licences ;)

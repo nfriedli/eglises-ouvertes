@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Il est recommandé d'utiliser les script de conversion en go.
+# Il est recommandé d’utiliser les script de conversion en go.
 # Celui-ci ne sera pas forcément tenu à jour.
 
 import json

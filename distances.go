@@ -21,7 +21,7 @@ type Paroisses []struct {
 	Longitude float64 `json:"longitude"`
 }
 
-// définition d'une paroisse cible
+// définition d’une paroisse cible
 type Cible struct {
 	Title    string  `json:"nom"`
 	URL      string  `json:"url"`
