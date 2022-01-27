@@ -26,7 +26,7 @@ def haversine(lon1, lat1, lon2, lat2):
     c = 2 * asin(sqrt(a))
     # Radius of earth in kilometers. Use 3956 for miles. Determines return
     # value units.
-    r = 6371
+    r = 6378.1
     return c * r
 
 
