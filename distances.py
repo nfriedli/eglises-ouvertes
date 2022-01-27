@@ -73,6 +73,6 @@ for i in paroisses:
     distances[i["url"]] = cibles
 
 with open("data/distances.json", "w", encoding="utf8") as output:
-    json.dumps(distances, output, ensure_ascii=False, sort_keys=True)
+    json.dump(distances, output, ensure_ascii=False, sort_keys=True)
 
 output.close()
