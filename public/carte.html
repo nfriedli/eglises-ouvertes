@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c33f742c18cf4322a618dc472dfe56d2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c33f742c18cf4322a618dc472dfe56d2" ></div>
+        
+</body>
+<script>    
+    
+            var map_c33f742c18cf4322a618dc472dfe56d2 = L.map(
+                "map_c33f742c18cf4322a618dc472dfe56d2",
+                {
+                    center: [46.96661, 6.86231],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_247d3660385c45ab8d18f4c24a782ec0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+            var marker_e7dffc09b3994d269cfc7d88ed371689 = L.marker(
+                [46.69360081753589, 6.461355007509121],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_261f0a7d6da04fbd84b4145b7fef0a49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd60285f11334608b9dcd0db880b22fc = $(`<div id="html_bd60285f11334608b9dcd0db880b22fc" style="width: 100.0%; height: 100.0%;">Abbatiale de Romainmôtier</div>`)[0];
+            popup_261f0a7d6da04fbd84b4145b7fef0a49.setContent(html_bd60285f11334608b9dcd0db880b22fc);
+        
+
+        marker_e7dffc09b3994d269cfc7d88ed371689.bindPopup(popup_261f0a7d6da04fbd84b4145b7fef0a49)
+        ;
+
+        
+    
+    
+            var marker_629078afe5964c06a147419a9d42cecb = L.marker(
+                [47.0643175, 7.0969193],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_3fa127dcf2674ca5a7c23b069f035ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_658d59ada68c40399378d9d51e94b53a = $(`<div id="html_658d59ada68c40399378d9d51e94b53a" style="width: 100.0%; height: 100.0%;">Blanche Église de La Neuveville</div>`)[0];
+            popup_3fa127dcf2674ca5a7c23b069f035ed6.setContent(html_658d59ada68c40399378d9d51e94b53a);
+        
+
+        marker_629078afe5964c06a147419a9d42cecb.bindPopup(popup_3fa127dcf2674ca5a7c23b069f035ed6)
+        ;
+
+        
+    
+    
+            var marker_e2f9a1f4822a4eb79ecc877509d15de3 = L.marker(
+                [46.5226215, 6.6353689],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_4bc3da8eb881432fabdbfd34e15f974f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d3f53ef73ee4d71abc9787cd8f1ac40 = $(`<div id="html_6d3f53ef73ee4d71abc9787cd8f1ac40" style="width: 100.0%; height: 100.0%;">Cathédrale Notre-Dame à Lausanne</div>`)[0];
+            popup_4bc3da8eb881432fabdbfd34e15f974f.setContent(html_6d3f53ef73ee4d71abc9787cd8f1ac40);
+        
+
+        marker_e2f9a1f4822a4eb79ecc877509d15de3.bindPopup(popup_4bc3da8eb881432fabdbfd34e15f974f)
+        ;
+
+        
+    
+    
+            var marker_d591204ca9e74160b377a201d5f4272f = L.marker(
+                [47.19489745158358, 7.107635095779613],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_910d840c454c443ba56dc19fe451fdbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cd6172f87b344c3bc40a440bdfd4e6b = $(`<div id="html_8cd6172f87b344c3bc40a440bdfd4e6b" style="width: 100.0%; height: 100.0%;">Chapelle de Cortébert</div>`)[0];
+            popup_910d840c454c443ba56dc19fe451fdbc.setContent(html_8cd6172f87b344c3bc40a440bdfd4e6b);
+        
+
+        marker_d591204ca9e74160b377a201d5f4272f.bindPopup(popup_910d840c454c443ba56dc19fe451fdbc)
+        ;
+
+        
+    
+    
+            var marker_9531faf523f14ae29e0cb49defbe802e = L.marker(
+                [46.99878273937096, 6.932340908079355],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_3b8efbdf5d47454e968afaa7c61328a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b90b4daf06c543c8ad388a1bf96cd272 = $(`<div id="html_b90b4daf06c543c8ad388a1bf96cd272" style="width: 100.0%; height: 100.0%;">Chapelle de l’Ermitage à Neuchâtel</div>`)[0];
+            popup_3b8efbdf5d47454e968afaa7c61328a7.setContent(html_b90b4daf06c543c8ad388a1bf96cd272);
+        
+
+        marker_9531faf523f14ae29e0cb49defbe802e.bindPopup(popup_3b8efbdf5d47454e968afaa7c61328a7)
+        ;
+
+        
+    
+    
+            var marker_237b7bf2fc3d42af908082c3adcb972d = L.marker(
+                [47.152597, 6.996846],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_dee18c9063de45a2912bfd2fa977e20d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7e20879bbd1403fbee48d17c8ab9f51 = $(`<div id="html_b7e20879bbd1403fbee48d17c8ab9f51" style="width: 100.0%; height: 100.0%;">Collégiale de Saint-Imier</div>`)[0];
+            popup_dee18c9063de45a2912bfd2fa977e20d.setContent(html_b7e20879bbd1403fbee48d17c8ab9f51);
+        
+
+        marker_237b7bf2fc3d42af908082c3adcb972d.bindPopup(popup_dee18c9063de45a2912bfd2fa977e20d)
+        ;
+
+        
+    
+    
+            var marker_2ec1a3786b5f40d7b3f479e2958600df = L.marker(
+                [47.28086304897981, 7.371971054440617],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_55823801aef94047b7454d88cf08ce2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cc290fb9b684ceab4e122f47185b68d = $(`<div id="html_7cc290fb9b684ceab4e122f47185b68d" style="width: 100.0%; height: 100.0%;">Collégiale Saint-Germain à Moutier</div>`)[0];
+            popup_55823801aef94047b7454d88cf08ce2d.setContent(html_7cc290fb9b684ceab4e122f47185b68d);
+        
+
+        marker_2ec1a3786b5f40d7b3f479e2958600df.bindPopup(popup_55823801aef94047b7454d88cf08ce2d)
+        ;
+
+        
+    
+    
+            var marker_fbf870f613734781b7fad3dcfd3d067b = L.marker(
+                [47.23803, 7.28239],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_694c152e8f284b8bb28829f0669f2026 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e92ffbfdcb8349798cf4cf8a715f5d0d = $(`<div id="html_e92ffbfdcb8349798cf4cf8a715f5d0d" style="width: 100.0%; height: 100.0%;">Temple de Bévilard</div>`)[0];
+            popup_694c152e8f284b8bb28829f0669f2026.setContent(html_e92ffbfdcb8349798cf4cf8a715f5d0d);
+        
+
+        marker_fbf870f613734781b7fad3dcfd3d067b.bindPopup(popup_694c152e8f284b8bb28829f0669f2026)
+        ;
+
+        
+    
+    
+            var marker_cfd894a65e8646a4bcd9de1bee41ea54 = L.marker(
+                [46.9660959, 6.8376964],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_1ba95edb8ee5440591d5449234677b48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a403d92f46834882bc409cfdec092e9a = $(`<div id="html_a403d92f46834882bc409cfdec092e9a" style="width: 100.0%; height: 100.0%;">Temple de Bôle</div>`)[0];
+            popup_1ba95edb8ee5440591d5449234677b48.setContent(html_a403d92f46834882bc409cfdec092e9a);
+        
+
+        marker_cfd894a65e8646a4bcd9de1bee41ea54.bindPopup(popup_1ba95edb8ee5440591d5449234677b48)
+        ;
+
+        
+    
+    
+            var marker_226d1244d4f84299ad2c15e43672b44d = L.marker(
+                [46.9666066, 6.8623137],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_d3e21af3d53148348e956bef60c04b4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_253ebc66958e4f9d8fd6bd5136e3c67c = $(`<div id="html_253ebc66958e4f9d8fd6bd5136e3c67c" style="width: 100.0%; height: 100.0%;">Temple de Colombier</div>`)[0];
+            popup_d3e21af3d53148348e956bef60c04b4e.setContent(html_253ebc66958e4f9d8fd6bd5136e3c67c);
+        
+
+        marker_226d1244d4f84299ad2c15e43672b44d.bindPopup(popup_d3e21af3d53148348e956bef60c04b4e)
+        ;
+
+        
+    
+    
+            var marker_a690ae2a78df4658a0093c645848bdee = L.marker(
+                [47.19426286889906, 7.14075336584768],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_6f8edf83ea2f4388b2ce5b790966fe1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1358ecc7d5a5422898049fe3c6e7d014 = $(`<div id="html_1358ecc7d5a5422898049fe3c6e7d014" style="width: 100.0%; height: 100.0%;">Temple de Corgémont</div>`)[0];
+            popup_6f8edf83ea2f4388b2ce5b790966fe1e.setContent(html_1358ecc7d5a5422898049fe3c6e7d014);
+        
+
+        marker_a690ae2a78df4658a0093c645848bdee.bindPopup(popup_6f8edf83ea2f4388b2ce5b790966fe1e)
+        ;
+
+        
+    
+    
+            var marker_ccdead2976fa469099417287f9a4c19a = L.marker(
+                [46.4702383, 6.8415893],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_b11b09078df6453d9285fe6ba4cbb68b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f845d7d4e1db44f8b69577069c3382c2 = $(`<div id="html_f845d7d4e1db44f8b69577069c3382c2" style="width: 100.0%; height: 100.0%;">Temple de Corsier</div>`)[0];
+            popup_b11b09078df6453d9285fe6ba4cbb68b.setContent(html_f845d7d4e1db44f8b69577069c3382c2);
+        
+
+        marker_ccdead2976fa469099417287f9a4c19a.bindPopup(popup_b11b09078df6453d9285fe6ba4cbb68b)
+        ;
+
+        
+    
+    
+            var marker_2057faf627b649cc904457b74042d00b = L.marker(
+                [47.366949, 7.345654],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_0ed046c6a800463881b93332d65401d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6421887cd22346bbab19f2925dddb8a5 = $(`<div id="html_6421887cd22346bbab19f2925dddb8a5" style="width: 100.0%; height: 100.0%;">Temple de Delémont</div>`)[0];
+            popup_0ed046c6a800463881b93332d65401d1.setContent(html_6421887cd22346bbab19f2925dddb8a5);
+        
+
+        marker_2057faf627b649cc904457b74042d00b.bindPopup(popup_0ed046c6a800463881b93332d65401d1)
+        ;
+
+        
+    
+    
+            var marker_eaac1108deb848a6b1cd4f82ba5f32fc = L.marker(
+                [47.11225, 7.11737],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_9f28eb2eeb34441a9b2c8970235c33db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80fcad6cffbb44cfa6d8b5f0441fb6ff = $(`<div id="html_80fcad6cffbb44cfa6d8b5f0441fb6ff" style="width: 100.0%; height: 100.0%;">Temple de Diesse</div>`)[0];
+            popup_9f28eb2eeb34441a9b2c8970235c33db.setContent(html_80fcad6cffbb44cfa6d8b5f0441fb6ff);
+        
+
+        marker_eaac1108deb848a6b1cd4f82ba5f32fc.bindPopup(popup_9f28eb2eeb34441a9b2c8970235c33db)
+        ;
+
+        
+    
+    
+            var marker_026c0967227a4c09b5c513c466a033b7 = L.marker(
+                [46.43047138752808, 7.146843968429575],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_1f48c8521e3b4993b5abb3ae0a1e0bb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f6b27b4427441c1908396ccf0588f5d = $(`<div id="html_9f6b27b4427441c1908396ccf0588f5d" style="width: 100.0%; height: 100.0%;">Temple de l’Étivaz</div>`)[0];
+            popup_1f48c8521e3b4993b5abb3ae0a1e0bb2.setContent(html_9f6b27b4427441c1908396ccf0588f5d);
+        
+
+        marker_026c0967227a4c09b5c513c466a033b7.bindPopup(popup_1f48c8521e3b4993b5abb3ae0a1e0bb2)
+        ;
+
+        
+    
+    
+            var marker_c56935a5962644b8bc4480069c335d9d = L.marker(
+                [46.09836512748419, 7.071932619412006],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_4af2847b34a84e5cbf8f260c060c6760 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f017ef0f3984aafad563d9dda4dbfa2 = $(`<div id="html_1f017ef0f3984aafad563d9dda4dbfa2" style="width: 100.0%; height: 100.0%;">Temple de Martigny</div>`)[0];
+            popup_4af2847b34a84e5cbf8f260c060c6760.setContent(html_1f017ef0f3984aafad563d9dda4dbfa2);
+        
+
+        marker_c56935a5962644b8bc4480069c335d9d.bindPopup(popup_4af2847b34a84e5cbf8f260c060c6760)
+        ;
+
+        
+    
+    
+            var marker_a1bba0c0022a4f51872aa1a695b9c4b8 = L.marker(
+                [46.590285454735245, 6.663996439215695],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_a9aa8564f8be4c2b95215c070338eda4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f755a7dca5f64f6ca56de7f9eb0c407c = $(`<div id="html_f755a7dca5f64f6ca56de7f9eb0c407c" style="width: 100.0%; height: 100.0%;">Temple de Montheron</div>`)[0];
+            popup_a9aa8564f8be4c2b95215c070338eda4.setContent(html_f755a7dca5f64f6ca56de7f9eb0c407c);
+        
+
+        marker_a1bba0c0022a4f51872aa1a695b9c4b8.bindPopup(popup_a9aa8564f8be4c2b95215c070338eda4)
+        ;
+
+        
+    
+    
+            var marker_3352207bbe6247cfb8e9bd8b8a8766e9 = L.marker(
+                [47.11233, 7.080408],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_517a65a3f059414fb61ce456c58ada9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a62e5c488fc43d2b51ff328ac08b375 = $(`<div id="html_7a62e5c488fc43d2b51ff328ac08b375" style="width: 100.0%; height: 100.0%;">Temple de Nods</div>`)[0];
+            popup_517a65a3f059414fb61ce456c58ada9b.setContent(html_7a62e5c488fc43d2b51ff328ac08b375);
+        
+
+        marker_3352207bbe6247cfb8e9bd8b8a8766e9.bindPopup(popup_517a65a3f059414fb61ce456c58ada9b)
+        ;
+
+        
+    
+    
+            var marker_f302e23e0c944b229c023df6aa182dfd = L.marker(
+                [47.12724, 6.92919],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_f0c8404c2e27446e8792d3184f38a055 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bbd157bef9847ac96498ddb2041716a = $(`<div id="html_9bbd157bef9847ac96498ddb2041716a" style="width: 100.0%; height: 100.0%;">Temple de Renan</div>`)[0];
+            popup_f0c8404c2e27446e8792d3184f38a055.setContent(html_9bbd157bef9847ac96498ddb2041716a);
+        
+
+        marker_f302e23e0c944b229c023df6aa182dfd.bindPopup(popup_f0c8404c2e27446e8792d3184f38a055)
+        ;
+
+        
+    
+    
+            var marker_c29d2388b01f46a7baa11202121070cd = L.marker(
+                [46.9775957, 6.8100857],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_6e76773c13f44b389597255aaae7f5a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80a4e1cceb174fd7b129aabd75865205 = $(`<div id="html_80a4e1cceb174fd7b129aabd75865205" style="width: 100.0%; height: 100.0%;">Temple de Rochefort</div>`)[0];
+            popup_6e76773c13f44b389597255aaae7f5a9.setContent(html_80a4e1cceb174fd7b129aabd75865205);
+        
+
+        marker_c29d2388b01f46a7baa11202121070cd.bindPopup(popup_6e76773c13f44b389597255aaae7f5a9)
+        ;
+
+        
+    
+    
+            var marker_4670904e82f241909ccf0000b2fc142e = L.marker(
+                [47.25528233278971, 6.9932336337594245],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_8559ccd4cbbe47438d14697545cc09b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa87c45899504e2d9faf0a824b654ebc = $(`<div id="html_aa87c45899504e2d9faf0a824b654ebc" style="width: 100.0%; height: 100.0%;">Temple de Saignelégier</div>`)[0];
+            popup_8559ccd4cbbe47438d14697545cc09b1.setContent(html_aa87c45899504e2d9faf0a824b654ebc);
+        
+
+        marker_4670904e82f241909ccf0000b2fc142e.bindPopup(popup_8559ccd4cbbe47438d14697545cc09b1)
+        ;
+
+        
+    
+    
+            var marker_ecf9530678bd4e788ca15253bace2051 = L.marker(
+                [46.982197344781824, 6.904161709716514],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_600c4bcab82f4c84bc7260a7c9305ba3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35cb4ac66495477bb78adb5b8a94d479 = $(`<div id="html_35cb4ac66495477bb78adb5b8a94d479" style="width: 100.0%; height: 100.0%;">Temple de Serrières à Neuchâtel</div>`)[0];
+            popup_600c4bcab82f4c84bc7260a7c9305ba3.setContent(html_35cb4ac66495477bb78adb5b8a94d479);
+        
+
+        marker_ecf9530678bd4e788ca15253bace2051.bindPopup(popup_600c4bcab82f4c84bc7260a7c9305ba3)
+        ;
+
+        
+    
+    
+            var marker_e1a5d9e10d8546dc8baa95dd2aa9c520 = L.marker(
+                [46.2932052260873, 7.528106412071014],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_12facc993892454aa259d4cd0ba44b40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2669869c281f4114a9c9c7f6b4fe24e2 = $(`<div id="html_2669869c281f4114a9c9c7f6b4fe24e2" style="width: 100.0%; height: 100.0%;">Temple de Sierre</div>`)[0];
+            popup_12facc993892454aa259d4cd0ba44b40.setContent(html_2669869c281f4114a9c9c7f6b4fe24e2);
+        
+
+        marker_e1a5d9e10d8546dc8baa95dd2aa9c520.bindPopup(popup_12facc993892454aa259d4cd0ba44b40)
+        ;
+
+        
+    
+    
+            var marker_20bc2783dc4d4e1a80951204ef2cd488 = L.marker(
+                [47.274085, 7.2141],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_a1281ba503284933b80eed408497e2b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7427a7a4a8e477692bb9cff9f47c8a5 = $(`<div id="html_a7427a7a4a8e477692bb9cff9f47c8a5" style="width: 100.0%; height: 100.0%;">Temple de Sornetan</div>`)[0];
+            popup_a1281ba503284933b80eed408497e2b6.setContent(html_a7427a7a4a8e477692bb9cff9f47c8a5);
+        
+
+        marker_20bc2783dc4d4e1a80951204ef2cd488.bindPopup(popup_a1281ba503284933b80eed408497e2b6)
+        ;
+
+        
+    
+    
+            var marker_bb6e2e7ca1fb467286972c3023083b2d = L.marker(
+                [47.223176, 7.097317],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_f3e4571570a640e4bba90b6669b0a730 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72809211f004446f8de05d6dfef46453 = $(`<div id="html_72809211f004446f8de05d6dfef46453" style="width: 100.0%; height: 100.0%;">Temple de Tramelan</div>`)[0];
+            popup_f3e4571570a640e4bba90b6669b0a730.setContent(html_72809211f004446f8de05d6dfef46453);
+        
+
+        marker_bb6e2e7ca1fb467286972c3023083b2d.bindPopup(popup_f3e4571570a640e4bba90b6669b0a730)
+        ;
+
+        
+    
+    
+            var marker_b9c5595ea30042d5951edfe48b0a7bfb = L.marker(
+                [47.15656, 7.01733],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_092b259d7352465aba16ce51d611c4b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4254782b0c8142f8b6a8909827b58ac6 = $(`<div id="html_4254782b0c8142f8b6a8909827b58ac6" style="width: 100.0%; height: 100.0%;">Temple de Villeret</div>`)[0];
+            popup_092b259d7352465aba16ce51d611c4b4.setContent(html_4254782b0c8142f8b6a8909827b58ac6);
+        
+
+        marker_b9c5595ea30042d5951edfe48b0a7bfb.bindPopup(popup_092b259d7352465aba16ce51d611c4b4)
+        ;
+
+        
+    
+    
+            var marker_b197a4474a3e4f8888328e394196c45b = L.marker(
+                [46.546022832865816, 6.673832594113566],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_5b5f08bdee524ffdb720820336ab820f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f689f6c25eae4b31af241f5601dd1ef3 = $(`<div id="html_f689f6c25eae4b31af241f5601dd1ef3" style="width: 100.0%; height: 100.0%;">Temple des Croisettes à Épalinges</div>`)[0];
+            popup_5b5f08bdee524ffdb720820336ab820f.setContent(html_f689f6c25eae4b31af241f5601dd1ef3);
+        
+
+        marker_b197a4474a3e4f8888328e394196c45b.bindPopup(popup_5b5f08bdee524ffdb720820336ab820f)
+        ;
+
+        
+    
+    
+            var marker_8cc04e2abb6f4b0ebc942976ddd8f707 = L.marker(
+                [46.977819, 6.8775069],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_88c1d70486eb4a718a71bf28536377ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32e021219f9e4157b1f58e31e01656cb = $(`<div id="html_32e021219f9e4157b1f58e31e01656cb" style="width: 100.0%; height: 100.0%;">Temple d’Auvernier</div>`)[0];
+            popup_88c1d70486eb4a718a71bf28536377ff.setContent(html_32e021219f9e4157b1f58e31e01656cb);
+        
+
+        marker_8cc04e2abb6f4b0ebc942976ddd8f707.bindPopup(popup_88c1d70486eb4a718a71bf28536377ff)
+        ;
+
+        
+    
+    
+            var marker_c7902f567a8e4336b4d08ab7cb96fe91 = L.marker(
+                [47.06258, 7.09327],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_0bd1c16608ad40d59ab75e0944d65804 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_502734c72cfb464a95ff2a4b2dd0ba54 = $(`<div id="html_502734c72cfb464a95ff2a4b2dd0ba54" style="width: 100.0%; height: 100.0%;">Temple Neuf de La Neuveville</div>`)[0];
+            popup_0bd1c16608ad40d59ab75e0944d65804.setContent(html_502734c72cfb464a95ff2a4b2dd0ba54);
+        
+
+        marker_c7902f567a8e4336b4d08ab7cb96fe91.bindPopup(popup_0bd1c16608ad40d59ab75e0944d65804)
+        ;
+
+        
+    
+    
+            var marker_357aa5d9e7d3426190f75106383d57e7 = L.marker(
+                [46.473216516862934, 7.129451715808422],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_af7aa39501644d57b20ccc36ea6aec84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ce1fc43831048fdb6fffdf6006c49cd = $(`<div id="html_9ce1fc43831048fdb6fffdf6006c49cd" style="width: 100.0%; height: 100.0%;">Temple Saint-Donat à Château-d’Œx</div>`)[0];
+            popup_af7aa39501644d57b20ccc36ea6aec84.setContent(html_9ce1fc43831048fdb6fffdf6006c49cd);
+        
+
+        marker_357aa5d9e7d3426190f75106383d57e7.bindPopup(popup_af7aa39501644d57b20ccc36ea6aec84)
+        ;
+
+        
+    
+    
+            var marker_d6a80040d878408289db84c3f538b5af = L.marker(
+                [47.420906491792046, 7.119394435544791],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_8ba1c5a28cfd4a1b8e52608011350e90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7c3c122c6c7443eabaca7ccee115c24 = $(`<div id="html_e7c3c122c6c7443eabaca7ccee115c24" style="width: 100.0%; height: 100.0%;">Temple Saint-Germain à Porrentruy</div>`)[0];
+            popup_8ba1c5a28cfd4a1b8e52608011350e90.setContent(html_e7c3c122c6c7443eabaca7ccee115c24);
+        
+
+        marker_d6a80040d878408289db84c3f538b5af.bindPopup(popup_8ba1c5a28cfd4a1b8e52608011350e90)
+        ;
+
+        
+    
+    
+            var marker_05e7468115e6406f8656972fd95cf11a = L.marker(
+                [46.409656017031615, 6.179872727820795],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_f46306eb39174baa9704ad32bf61ebb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfd9e4b5ac604dc681dcdba491711f26 = $(`<div id="html_cfd9e4b5ac604dc681dcdba491711f26" style="width: 100.0%; height: 100.0%;">Temple Saint-Laurent à Gingins</div>`)[0];
+            popup_f46306eb39174baa9704ad32bf61ebb3.setContent(html_cfd9e4b5ac604dc681dcdba491711f26);
+        
+
+        marker_05e7468115e6406f8656972fd95cf11a.bindPopup(popup_f46306eb39174baa9704ad32bf61ebb3)
+        ;
+
+        
+    
+    
+            var marker_0b4a7e59b5db4a899a28e1e649ffa5dd = L.marker(
+                [46.45324750350142, 6.289990825201973],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_bf44c3ac641143828a48297549ea9b20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efb862b2acd24fa1a728652063ba1f2c = $(`<div id="html_efb862b2acd24fa1a728652063ba1f2c" style="width: 100.0%; height: 100.0%;">Temple Saint-Martin de Bursins</div>`)[0];
+            popup_bf44c3ac641143828a48297549ea9b20.setContent(html_efb862b2acd24fa1a728652063ba1f2c);
+        
+
+        marker_0b4a7e59b5db4a899a28e1e649ffa5dd.bindPopup(popup_bf44c3ac641143828a48297549ea9b20)
+        ;
+
+        
+    
+    
+            var marker_a8cf460bea5a472681236e8cffd13187 = L.marker(
+                [47.283219, 7.42891],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_83b2a8e778e742c982c16285eaef08b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a2ff159cb094619a597f624d6b9062c = $(`<div id="html_5a2ff159cb094619a597f624d6b9062c" style="width: 100.0%; height: 100.0%;">Temple Saint-Martin à Grandval</div>`)[0];
+            popup_83b2a8e778e742c982c16285eaef08b0.setContent(html_5a2ff159cb094619a597f624d6b9062c);
+        
+
+        marker_a8cf460bea5a472681236e8cffd13187.bindPopup(popup_83b2a8e778e742c982c16285eaef08b0)
+        ;
+
+        
+    
+    
+            var marker_c453c0925047481a9169a751cd48d2d1 = L.marker(
+                [46.39633307146296, 6.925316515356124],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_9f69032c64ea4a4e96f405dc4614cdb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7bfe1e444e44715b0503bd4f1bd455b = $(`<div id="html_f7bfe1e444e44715b0503bd4f1bd455b" style="width: 100.0%; height: 100.0%;">Temple Saint-Paul à Villeneuve</div>`)[0];
+            popup_9f69032c64ea4a4e96f405dc4614cdb3.setContent(html_f7bfe1e444e44715b0503bd4f1bd455b);
+        
+
+        marker_c453c0925047481a9169a751cd48d2d1.bindPopup(popup_9f69032c64ea4a4e96f405dc4614cdb3)
+        ;
+
+        
+    
+    
+            var marker_3dfbac02aa274a1fb220bc99e842cdbb = L.marker(
+                [46.71217797767957, 6.475231404855128],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_c65f1247c1544ad2b3626c888413ef6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc0c957f0cbb4ab98e50c1759900de6c = $(`<div id="html_dc0c957f0cbb4ab98e50c1759900de6c" style="width: 100.0%; height: 100.0%;">Église de Bretonnières</div>`)[0];
+            popup_c65f1247c1544ad2b3626c888413ef6d.setContent(html_dc0c957f0cbb4ab98e50c1759900de6c);
+        
+
+        marker_3dfbac02aa274a1fb220bc99e842cdbb.bindPopup(popup_c65f1247c1544ad2b3626c888413ef6d)
+        ;
+
+        
+    
+    
+            var marker_1618bf593c2d483bb8f502cc00eba79a = L.marker(
+                [46.471358435849346, 6.884087920833893],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_6085f04b82f64a628b07132f82d5bef9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_715cc62f2b6a4ac485c351e5655cf1c2 = $(`<div id="html_715cc62f2b6a4ac485c351e5655cf1c2" style="width: 100.0%; height: 100.0%;">Église de La Chiésaz</div>`)[0];
+            popup_6085f04b82f64a628b07132f82d5bef9.setContent(html_715cc62f2b6a4ac485c351e5655cf1c2);
+        
+
+        marker_1618bf593c2d483bb8f502cc00eba79a.bindPopup(popup_6085f04b82f64a628b07132f82d5bef9)
+        ;
+
+        
+    
+    
+            var marker_ceea42274109468e83524c9dc5a0ef4e = L.marker(
+                [46.38102308222695, 6.238488426326603],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_41a6f7cdafbd4363873ba755c30fb87e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad4e792e78bc4b18aeee4346f0fb530e = $(`<div id="html_ad4e792e78bc4b18aeee4346f0fb530e" style="width: 100.0%; height: 100.0%;">Église Notre-Dame à Nyon</div>`)[0];
+            popup_41a6f7cdafbd4363873ba755c30fb87e.setContent(html_ad4e792e78bc4b18aeee4346f0fb530e);
+        
+
+        marker_ceea42274109468e83524c9dc5a0ef4e.bindPopup(popup_41a6f7cdafbd4363873ba755c30fb87e)
+        ;
+
+        
+    
+    
+            var marker_dfdc3d97016a4a8580510132266208ef = L.marker(
+                [46.725563573915366, 6.53952296952409],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_f4b7dccd7dc64c1a9409bd22236bab0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e5050ce735d44769ab021503c0a576b = $(`<div id="html_1e5050ce735d44769ab021503c0a576b" style="width: 100.0%; height: 100.0%;">Église Notre-Dame à Orbe</div>`)[0];
+            popup_f4b7dccd7dc64c1a9409bd22236bab0f.setContent(html_1e5050ce735d44769ab021503c0a576b);
+        
+
+        marker_dfdc3d97016a4a8580510132266208ef.bindPopup(popup_f4b7dccd7dc64c1a9409bd22236bab0f)
+        ;
+
+        
+    
+    
+            var marker_9758f424e3ff4f5ba78518264563c8d3 = L.marker(
+                [46.51988913893335, 6.633381851553521],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_6bc891b76da44cedacb13e5b2db4c534 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c0e0629d5c14c9bab319f81b6943015 = $(`<div id="html_9c0e0629d5c14c9bab319f81b6943015" style="width: 100.0%; height: 100.0%;">Église Saint-François à Lausanne</div>`)[0];
+            popup_6bc891b76da44cedacb13e5b2db4c534.setContent(html_9c0e0629d5c14c9bab319f81b6943015);
+        
+
+        marker_9758f424e3ff4f5ba78518264563c8d3.bindPopup(popup_6bc891b76da44cedacb13e5b2db4c534)
+        ;
+
+        
+    
+    
+            var marker_34e203feddf44cecbe3dde9c52fd3890 = L.marker(
+                [46.53431178981868, 7.199327549099944],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_388b789ce3a24509931b58e71f2caa04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8de89e71ab542a2952952046ac74fd8 = $(`<div id="html_c8de89e71ab542a2952952046ac74fd8" style="width: 100.0%; height: 100.0%;">Église Saint-Nicolas de Myre à Rougemont</div>`)[0];
+            popup_388b789ce3a24509931b58e71f2caa04.setContent(html_c8de89e71ab542a2952952046ac74fd8);
+        
+
+        marker_34e203feddf44cecbe3dde9c52fd3890.bindPopup(popup_388b789ce3a24509931b58e71f2caa04)
+        ;
+
+        
+    
+    
+            var marker_e1fc80feb770473890a1bbcfdf1ac562 = L.marker(
+                [46.46862803169878, 7.083178026839616],
+                {}
+            ).addTo(map_c33f742c18cf4322a618dc472dfe56d2);
+        
+    
+        var popup_9531cab05a644383a1c8972517dad345 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_217c5b8089cb49aeb944e311bf696811 = $(`<div id="html_217c5b8089cb49aeb944e311bf696811" style="width: 100.0%; height: 100.0%;">Église Sainte-Marie-Madeleine à Rossinière</div>`)[0];
+            popup_9531cab05a644383a1c8972517dad345.setContent(html_217c5b8089cb49aeb944e311bf696811);
+        
+
+        marker_e1fc80feb770473890a1bbcfdf1ac562.bindPopup(popup_9531cab05a644383a1c8972517dad345)
+        ;
+
+        
+    
+</script>
