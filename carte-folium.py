@@ -4,6 +4,7 @@ import folium
 with open("public/index.json") as source:
     paroisses = json.load(source)
 
+# Carte positionnée chez moi ;)
 m = folium.Map(location=[46.96661, 6.86231])
 
 for i in paroisses:
