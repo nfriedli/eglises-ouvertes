@@ -14,7 +14,9 @@ Suisse
 
 [nicolas.friedli+eo@gmail.com](mailto:nicolas.friedli+eo@gmail.com)  
 [+41 32 841 48 74](tel:+41328414874) (urgences uniquement)  
-[+41 79 344 33 82](tel:+41793443382) (Threema, Signal, SMS, Telegram, ~~WhatsApp~~)
+[+41 79 344 33 82](tel:+41793443382) (Threema, Signal, SMS)
+
+Je re réponds pas aux messages reçus sur WhatsApp!
 
 Si ce projet vous plaît, vous pouvez utiliser mon numéro de portable pour **m’offrir un café par Twint**!
 
