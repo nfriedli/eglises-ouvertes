@@ -51,6 +51,13 @@ params:
     - https://pixabay.com/fr/photos/l%c3%a9ger-chapelle-%c3%a9glise-architecture-3176887/
     - https://pixabay.com/fr/photos/%c3%a9glise-islande-l-%c3%a9glise-noire-4964183/
   footer: |
+      **Liens conseillés:**
+      [Trouver ma paroisse](https://eglises-ouvertes.ch/) /
+      [Baptême protestant](https://baptiser.ch) / 
+      [Bénédiction de mariage](https://benir.ch) /
+      [Ministères diaconal et pastoral](https://ministeres.ch/) /
+      [Prédications en ligne](https://predication.ch/) / 
+      [Veille théologique](https://theologique.ch/)
+
       **Licence:** [Creative Commons Zero (CC0)](https://fr.wikipedia.org/wiki/Licence_CC0)  
       **Code source:** [GitHub](https://github.com/nfriedli/eglises-ouvertes)  
-      **Liens conseillés:** [Annuaire protestant](https://1517.ch/), [Trouver ma paroisse](https://ma-paroisse.ch/) & [Trouver une prédication](https://predication.ch/) 
