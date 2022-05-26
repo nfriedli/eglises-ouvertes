@@ -102,6 +102,7 @@ Il est lancé par
 L’ensemble des fichiers peut être réutilisé librement, sauf:
 
 - `fuse.js` pour la recherche
+- `instant.click` pour le préchargement des pages
 - *Fraunces*, la police d’écriture des titres
 - ~~le code d’image `opengraph` chez Cloudinary~~
 - ~~`geolib` à installer avant calcul des distances pour l’ancienne version en `js`~~

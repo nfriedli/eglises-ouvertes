@@ -85,9 +85,6 @@ Le travail fourni pour `eglises-ouvertes.ch` est bénévole et réalisé en tout
 
 ## Comment modifier une page existante?
 
-**Remarque.**
-Le système de commentaire Disqus, qui restera activé quelques semaines, permet d’apporter vos remarques et suggestions facilement.
-
 Vous ne pouvez pas modifier une page, mais vous pouvez suggérer des modifications à l’auteur de site.
 Merci, en particulier, de **signaler au plus vite** des changements d’horaires d’ouverture ou des erreurs.
 
@@ -168,11 +165,8 @@ Toutefois, des images sont automatiquement générées pour les partages sur les
 
 ## Pourquoi ce site est aussi rapide?
 
-**Remarque.** 
-En phase de récolte des données, le système de commentaire Disqus est utilisé. 
-Il ralentit considérablement le site mais permet des réactions simplifiées.
-
 Le site `eglises-ouvertes.ch` est servi par Netlify, compilé par génial [Hugo](https://gohugo.io/) et maintenu sur [GitHub](https://github.com/nfriedli/eglises-ouvertes).
+Les pages sont préchargées au survol des liens par `instant.page`.
 Il respecte au mieux les standards HTML et CSS.
 Il vise les meilleurs scores d’accessibilité (a11y) WAVE.
 Il devrait obtenir de très bons résultats de performances au test Lighthouse.
@@ -209,3 +203,4 @@ Pour leurs outils libres et performants, merci à:
 - [Bjørn Erik Pedersen](https://bep.is/en/), créateur de Hugo, générateur de site statique utilisé actuellement
 - [Kiro Risk](https://fusejs.io/team.html), créateur de fuse.js, script de recherche
 - [Zach Leatherman](https://www.zachleat.com/), créateur d’Eleventy (11ty), générateur utilisé pour la première version du site
+- [Alexandre Dieulot](https://dieulot.fr/), créateur d'instant.page
