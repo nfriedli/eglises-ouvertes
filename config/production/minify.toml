@@ -1,0 +1,9 @@
+minifyOutput = true
+
+[tdewolff.css]
+keepCSS2 = false
+
+[tdewolff.html]
+keepDefaultAttrVals = false
+keepQuotes = true
+keepWhitespace = true

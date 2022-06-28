@@ -1,0 +1,3 @@
+home = [ "html", "json" ]
+section = [ "html", "json" ]
+page = [ "html" ]

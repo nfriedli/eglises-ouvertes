@@ -1,0 +1,2 @@
+[goldmark.parser]
+autoHeadingIDType = "github-ascii"
