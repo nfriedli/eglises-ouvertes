@@ -8,7 +8,7 @@
     {{ with .Content }}
         {{ . }}
     {{ else }}
-        {{ .Description | markdownify }}
+        {{ .RenderString .Description }}
     {{ end }}
     
     <ul>
