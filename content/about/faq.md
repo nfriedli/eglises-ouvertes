@@ -130,7 +130,7 @@ Il est bien assez difficile de lister toutes les églises ouvertes protestantes 
 
 Plusieurs documentations de qualité existent:
 
-- [brochure EERV](https://vcc.eerv.ch/eglises-ouvertes/170920_brochure_eglises_ouvertes_light_v00/)
+- [brochure EERV](https://vcc.eerv.ch/wp-content/uploads/sites/287/2015/02/170920_Brochure_Eglises_Ouvertes_LIGHT_V00.pdf)
 - [brochure RefBeJuSo](https://www.refbejuso.ch/fr/activites/eglise-lieu-daccueil/comment-devenir-une-eglise-lieu-daccueil/)
 - [brochure EERS](https://www.evref.ch/fr/publications/accueil-et-confiance-pour-des-eglises-ouvertes/)
 
@@ -159,7 +159,7 @@ Il est volontairement simple et léger.
 ## Pourquoi ce site est-il sans images?
 
 Il n’est pas possible de trouver des images libres de droits de tous les édifices présentés.
-Mais la fourniture d’images libre de qualité pourrait faire changer les responsable d’avis.
+Mais la fourniture d’images libre de qualité pourrait faire changer le responsable d’avis.
 
 Toutefois, des images sont automatiquement générées pour les partages sur les réseaux sociaux.
 
