@@ -8,7 +8,8 @@
     {{ with .Content }}
         {{ . }}
     {{ else }}
-        {{ .RenderString .Description }}
+        {{ $options := dict "display" "block" }}
+        {{ .Description | .RenderString $options}}
     {{ end }}
     
     <ul>
