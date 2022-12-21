@@ -1,0 +1,6 @@
+{{ $categorie := .Get 0 }}
+<ul>
+    {{ range (sort (where site.RegularPages ".Params.pbc" $categorie) ".File.BaseFileName" )}}
+        <li><a href="{{ .RelPermalink}}">{{ .Title }}</a> <small>({{ .Params.canton }})</small></li>
+    {{ end }}
+</ul> 

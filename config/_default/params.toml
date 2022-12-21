@@ -1,0 +1,13 @@
+description = "édifices protestants réformés en Suisse romande"
+images = [
+  "https://pixabay.com/fr/photos/l%c3%a9ger-chapelle-%c3%a9glise-architecture-3176887/",
+  "https://pixabay.com/fr/photos/%c3%a9glise-islande-l-%c3%a9glise-noire-4964183/"
+]
+footer = """
+**Les données sont transmises en l’état. Merci de signaler les données qui ne seraient plus à jour**
+
+**Responsable:** [Joël Burri](https://www.reformes.ch/blog/joel-burri)  
+**Créateur du site initial:** [Nicolas Friedli](https://nicolasfriedli.ch)  
+**Licence:** Creative Commons Zero (CC0) / **Code source:** [GitHub](https://github.com/nfriedli/eglises-ouvertes)  
+"""
+

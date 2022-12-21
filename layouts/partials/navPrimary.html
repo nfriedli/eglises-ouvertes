@@ -1,0 +1,7 @@
+<nav class="main primary">
+    <ul>
+        {{ range where .Site.Sections "Section" "!=" "about"}}
+        <li><a href="{{.RelPermalink}}">{{.LinkTitle}}</a></li>
+        {{ end }}
+    </ul>
+</nav>

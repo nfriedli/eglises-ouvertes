@@ -1,0 +1,11 @@
+baseURL = "https://eglises-ouvertes.netlify.app/"
+cleanDestinationDir = true
+copyright = "CC0 (domaine public)"
+date = [ "date", "lastmod" ]
+defaultContentLanguage = "fr"
+disableFastRender = true
+disableKinds = [ "RSS", "robotsTXT", "taxonomy", "term", "404" ]
+languageCode = "fr"
+lastmod = [ "lastmod", ":git" ]
+removePathAccents = true
+title = "Églises ouvertes"

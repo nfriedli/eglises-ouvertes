@@ -1,0 +1,5 @@
+<ul>
+    {{ range where site.Sections "Section" "!=" "about" }}
+        <li><a href="{{ .RelPermalink}}">{{ .Title }}</a> <small>({{.Params.eglise}})</small></li>
+    {{ end }}
+</ul> 

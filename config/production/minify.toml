@@ -1,0 +1,16 @@
+minifyOutput = true
+
+[tdewolff.css]
+keepCSS2 = false
+
+[tdewolff.html]
+keepConditionalComments = false
+keepDefaultAttrVals = false
+keepDocumentTags = false
+keepEndTags = false
+
+[tdewolff.js]
+keepVarNames = true
+
+[tdewolff.json]
+keepNumbers = true

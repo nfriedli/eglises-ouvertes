@@ -1,0 +1,10 @@
+<nav class="main secondary">
+    <ul>
+        {{ range where .Site.Sections "Section" "about" }}
+        <li><a href="{{.RelPermalink}}">{{.LinkTitle}}</a></li>
+        {{ range .Pages }}
+        <li><a href="{{.RelPermalink}}">{{.LinkTitle}}</a></li>
+        {{ end }}
+        {{ end }}
+    </ul>
+</nav>

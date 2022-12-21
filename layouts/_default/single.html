@@ -1,0 +1,112 @@
+{{ define "title"}}
+{{ .Title }} - {{.Parent.LinkTitle}} ({{.Parent.Params.eglise}}) - {{ site.Title }}
+{{ end }}
+
+{{ define "description"}}
+  {{ with .Params.description }}
+    <meta name="description" content="{{.}}">
+  {{ else }}
+  <meta name="description" content="{{.Params.ouverture}} - {{.Params.horaire}} - {{.Params.rue}}, {{.Params.npa}} {{- if .Params.localite }} {{ .Params.localite }} ({{.Params.commune}}){{- else }} {{ .Params.commune }}{{- end -}}, {{ .Parent.LinkTitle }}{{- with .Params.pbc }} - {{ if eq . "A"}} catégorie A (importance nationale){{else}} catégorie B (importance régionale){{end}}{{ end }}.">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+
+    {{ .Content }}
+
+    <dl>
+
+      <dt>Jours d’ouverture</dt>
+      <dd>{{ .Params.ouverture}}</dd>
+      
+      <dt>Horaire d’ouverture</dt>
+      <dd>{{ .Params.horaire}}</dd>
+      
+      <dt>Adresse</dt>
+      <dd>
+        <address>
+          {{ if .Params.nomCourt }}{{ .Params.nomCourt }}{{ else }}{{ .Params.title }}{{ end }}<br />
+          {{ .Params.rue}}<br />
+          {{ .Params.npa}} {{ with .Params.localite}}{{ . }}{{ else }}{{ .Params.commune }}{{ end }}<br />
+          Suisse
+        </address>
+      </dd>
+      
+      {{ if .Params.localite }}
+      <dt>Commune</dt>
+      <dd>{{ .Params.commune }}</dd>
+      {{ end }}
+      
+      <dt>Canton</dt>
+      <dd>{{ .Parent.LinkTitle }}</dd>
+      
+      <dt>Coordonnées</dt>
+      <dd>{{ div (math.Round (mul .Params.latitude 100000)) 100000 }}, {{ div (math.Round (mul .Params.longitude 100000)) 100000 }}</dd>
+      
+      {{ with .Params.vitraux -}}
+      <dt>Vitraux</dt>
+      <dd>{{ delimit . "; " }}</dd>
+      {{ end }} 
+      
+      {{ with .Params.pbc }}
+      <dt>Inventaire des biens culturels</dt>
+      <dd>{{ if eq . "A"}}catégorie A (importance nationale){{else}}catégorie B (importance régionale){{end}}</dd>
+      {{ end }}
+
+      <dt>Liens</dt>
+      {{ with .Params.Site }}<dd><a href="{{ . }}">Page web</a></dd>{{ end }}
+      {{ with .Params.Maps }}<dd><a href="{{ . }}">Google Maps</a></dd>{{ end }}
+
+    </dl>
+
+    <h2>Les églises ouvertes les plus proches</h2>
+    
+    {{ $permalink := .Page.RelPermalink }}
+    {{ $canton := .Page.Params.canton }}
+    {{ range $index, $distances := $.Site.Data.distances }}
+      {{ if eq $index $permalink }}
+      <ul> 
+          {{ range $lieu := $distances }}
+            <li><a href="{{$lieu.url}}">{{$lieu.nom}}</a>{{ if ne $lieu.canton $canton }} <small>({{$lieu.canton}})</small>{{ end }} à {{ div (math.Round (mul $lieu.distance 10)) 10 }}km</li>
+          {{ end }}
+          </ul>
+      {{ end }}
+    {{ end }}
+
+    <p>La distance est indicative et calculée à vol d’oiseau.</p>
+
+{{ end }}
+
+{{ define "ld-json"}}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Church",
+    "name": "{{ with .Params.nomCourt }}{{ . }}{{ else }}{{ .Params.title }}{{ end }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ .Params.rue}}",
+      "addressLocality": "{{ .Params.npa}} {{ with .Params.localite}}{{ . }}{{ else }}{{ .Params.commune }}{{ end }}",
+      "addressRegion": "{{ .Params.canton}}",
+      "postalCode": "{{ .Params.npa}}",
+      "addressCountry": "Suisse"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": {{ .Params.latitude}},
+      "longitude": {{ .Params.longitude}}
+    },
+    "url": "{{ with .Params.site }}{{ . }}{{ else }} {{ .Params.maps }}{{ end }}",
+    {{ with .Params.maps }}"hasMap": "{{ . }}",{{ end }}
+    "openingHours": "Mo-Su {{ if eq .Params.horaire "7/7" }}00:00-23.59{{ else }}{{ .Params.horaire }}{{ end }}"
+  }
+  </script>
+{{ end }}
+
+{{ define "geo-tag"}}
+<meta name="DC.title" content="{{ .Title }}">
+<meta name="geo.region" content="CH-{{.Parent.Params.abreviation}}">
+<meta name="geo.placename" content="{{with .Params.localite}}{{ . }}{{else}}{{.Params.commune}}{{end}}">
+<meta name="geo.position" content="{{.Params.latitude}};{{.Params.longitude}}">
+<meta name="ICBM" content="{{.Params.latitude}}, {{.Params.longitude}}">
+{{ end }}

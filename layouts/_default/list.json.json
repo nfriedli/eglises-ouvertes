@@ -1,0 +1,23 @@
+[
+    {{- range .RegularPages -}}
+    {{ if .Params.latitude }}
+    {
+        "title": "{{.Title}}",
+        "url": "{{.RelPermalink}}",
+        {{ with .Params.site }}"site": "{{.}}",{{end}}
+        {{ with .Params.maps }}"maps": "{{.}}",{{end}}
+        "rue": "{{.Params.rue}}",
+        "npa": {{.Params.npa}},
+        {{ with .Params.localite }}"localite": "{{.}}",{{end}}
+        "commune": "{{.Params.commune}}",
+        "canton": "{{.Params.canton}}",
+        "latitude": {{.Params.latitude}},
+        "longitude": {{.Params.longitude}},
+        {{ if .Params.vitraux }}"vitraux": [{{range .Params.vitraux}}"{{.}}",{{end}}],{{end}}
+        {{ with .Params.pbc }}"pbc": "{{ if eq . "A"}}catégorie A (importance nationale){{else}}catégorie B (importance régionale){{end}}",{{end}}
+        "ouverture": "{{.Params.ouverture}}",
+        "horaire": "{{.Params.horaire}}"
+    },
+    {{ end }}
+    {{- end -}}
+]

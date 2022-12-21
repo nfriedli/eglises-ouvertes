@@ -1,0 +1,27 @@
+{{ define "main" }}
+     {{ .Content }}
+{{ end }}
+
+{{ define "javascript" }}
+
+<script>
+const eglises = [
+    {{- range where site.RegularPages "Section" "!=" "about" -}}
+{
+    "title": "{{.Title}}",
+    "url": "{{.RelPermalink}}",
+    {{ if .Params.vitraux }}"vitraux": [{{range .Params.vitraux}}"{{.}}",{{end}}],{{end}}
+    "rue": "{{.Params.rue}}",
+    "npa": {{.Params.npa}},
+    {{ with .Params.localite }}"localite": "{{.}}",{{end}}
+    "commune": "{{.Params.commune}}",
+    "canton": "{{.Params.canton}}",
+},
+{{- end -}}]
+</script>
+
+{{ $search := resources.Get "js/search.js" }}
+{{ $fuse := resources.Get "js/fuse.js" }}
+{{ $js := slice $fuse $search | resources.Concat "/assets/js/bundle.js"  | minify | fingerprint }}
+<script defer src="{{ $js.RelPermalink }}"></script>
+{{ end }}

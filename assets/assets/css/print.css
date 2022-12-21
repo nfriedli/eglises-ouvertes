@@ -1,0 +1,22 @@
+/* Quelques idées ici: https://couleur-science.eu/themes/2021/style-print.css */
+
+html, body {
+    background: none;
+}
+
+* {
+    color: black !important;
+}
+
+header, footer, nav {
+    display: none;
+}
+
+img, pre, blockquote, figure, video {
+	break-inside: avoid;
+}
+
+h2, h3, h4 {
+    break-before: avoid;
+	break-after: avoid;
+}

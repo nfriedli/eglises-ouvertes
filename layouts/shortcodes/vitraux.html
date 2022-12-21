@@ -1,0 +1,12 @@
+{{ range $.Site.Data.vitraux }}
+{{ $nom := .nom }}
+<h2>{{ .nom }} <small>({{ .dates }})</small></h2>
+<ul>
+{{ range $.Site.RegularPages }}
+{{ $vitraux := .Params.vitraux}}
+{{ if in $vitraux $nom }}
+<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>({{ .Params.canton }})</small></li>
+{{ end }}
+{{ end }}
+</ul>
+{{ end }}

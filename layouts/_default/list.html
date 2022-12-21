@@ -1,0 +1,23 @@
+
+{{ define "title"}}
+{{ .Title }} ({{.Params.eglise}}) - {{ site.Title }}
+{{ end }}
+
+{{ define "main" }}
+
+    {{ with .Content }}
+        {{ . }}
+    {{ else }}
+        {{ $options := dict "display" "block" }}
+        {{ .Description | .RenderString $options}}
+    {{ end }}
+    
+    <ul>
+    {{ range sort .RegularPages "File.BaseFileName" }}
+        <li><a href="{{ .RelPermalink}}">{{ .Title }}</a>{{ if .Params.localite }} <small>({{ .Params.commune }})</small>{{ end }}</li>
+    {{ end }}
+    </ul> 
+
+
+    
+{{ end }}
