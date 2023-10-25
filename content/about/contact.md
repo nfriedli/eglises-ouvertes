@@ -5,6 +5,6 @@ description: Adresse et informations de contact pour transmettre vos information
 weight: 1000
 ---
 
-Le propriétaire et responsable bénévole du site est: [Joël Burri](https://www.reformes.ch/blog/joel-burri)  
+Le propriétaire et responsable bénévole du site était: [Joël Burri](https://www.reformes.ch/blog/joel-burri)  
 
 Quelques informations pour [transmettre des informations précises](/about/faq/#comment-transmettre-des-informations-precises).
