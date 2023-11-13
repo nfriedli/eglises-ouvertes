@@ -4,9 +4,9 @@ images = [
   "https://pixabay.com/fr/photos/%c3%a9glise-islande-l-%c3%a9glise-noire-4964183/"
 ]
 footer = """
-**Les données sont transmises en l’état. Merci de signaler les données qui ne seraient plus à jour**
+Ce site est une sauvegarde de eglises-ouvertes.ch. Les données sont livrées sans garantie.
 
-**Responsable:** site abandonné!  
+**Responsable:** ~~Joël Burri~~ site abandonné     
 **Créateur du site initial:** [Nicolas Friedli](https://nicolasfriedli.ch)  
 **Licence:** Creative Commons Zero (CC0) / **Code source:** [GitHub](https://github.com/nfriedli/eglises-ouvertes)  
 """

@@ -52,6 +52,7 @@ header, h1, h2 {
     font-family: var(--font-titling);
     font-size: 1.41rem;
     line-height: 1.2;
+    text-wrap: balance;
 }
 
 h1 { 
