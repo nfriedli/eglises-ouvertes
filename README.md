@@ -2,9 +2,9 @@
 
 Liste d’églises protestantes réformées ouvertes en Suisse romande.
 
-J'ai donné l'ancien nom de domaine eglises-ouvertes.ch. Le site a été ensuite abandonné.
+J’ai donné l’ancien nom de domaine eglises-ouvertes.ch. Le site a été ensuite abandonné.
 
-À titre d'archive, il ressemblait à ceci: https://eglises-ouvertes.netlify.app/
+À titre d’archive, il ressemblait à ceci: https://eglises-ouvertes.netlify.app/
 
 ## API
 

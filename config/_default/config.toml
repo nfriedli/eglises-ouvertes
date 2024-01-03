@@ -1,4 +1,4 @@
-baseURL = "https://eglises-ouvertes.netlify.app/"
+baseURL = "https://eglises-ouvertes.ch/"
 cleanDestinationDir = true
 copyright = "CC0 (domaine public)"
 date = [ "date", "lastmod" ]

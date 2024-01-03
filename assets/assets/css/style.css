@@ -4,9 +4,9 @@
     --light: hsl(50, 30%, 90%);
     --contrast: hsl(310, 80%, 40%);
     
-    --font-main: Lato, "Open Sans", Inter, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    --font-main: -apple-system, Roboto, Inter, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     --font-titling: Fraunces, Georgia, sans-serif;
-    --font-mono: Hack, "Fira Code", "Fira Sans Mono", "Roboto Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",monospace;
+    --font-mono: Hack, "Fira Code", "Fira Sans Mono", "Roboto Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -24,7 +24,6 @@ html {
     font-family: var(--font-main);
     font-size: 100%;
     line-height: 1.5;
-    text-rendering: optimizeSpeed;
     overflow-y: scroll;
 }
 
@@ -116,7 +115,7 @@ address {
 }
 
 p {
-    hyphens: auto;
+    text-wrap: pretty;
 }
 
 pre, code {
@@ -156,18 +155,9 @@ ul.search-results {
 /* Titraille */
 
 @font-face {
-    font-family: Fraunces;
+    font-display: swap; 
+    font-family: "Fraunces";
     font-style: normal;
     font-weight: 700;
-    src: url("/assets/fonts/fraunces-v10-latin-700.woff2") format("woff2");
-    font-display: swap;
-}
-
-/* Warning */
-
-div.warning {
-    background: #fee;
-    border: 4px solid #a00;
-    color: #a00;
-    padding: 0 1rem;
-}
+    src: url("/assets/fonts/fraunces-v31-latin-700.woff2") format("woff2");
+  }

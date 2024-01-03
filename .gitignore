@@ -1,6 +1,7 @@
 node_modules
 resources
 
+hugo.exe
 .DS_Store
 .hugo_build.lock
 package-lock.json

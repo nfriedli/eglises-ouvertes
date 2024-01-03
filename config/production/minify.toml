@@ -6,8 +6,10 @@ keepCSS2 = false
 [tdewolff.html]
 keepConditionalComments = false
 keepDefaultAttrVals = false
-keepDocumentTags = false
 keepEndTags = false
+keepQuotes = true
+keepWhitespace = true
+
 
 [tdewolff.js]
 keepVarNames = true

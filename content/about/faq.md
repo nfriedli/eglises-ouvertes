@@ -119,7 +119,7 @@ Souhait d’un temps de méditation personnelle?
 
 Pourtant, un lien vers un site paroissial est toujours proposé si la page de présentation de l’édifice de qualité (et mentionne des horaires d’ouverture).
 
-Pour les recherches spécifiquement paroissiale, il existe le site [Trouver ma paroisse](https://ma-paroisse.ch/).
+Pour les recherches spécifiquement paroissiales, il existe le site [Trouver ma paroisse](https://ma-paroisse.ch/).
 
 ## Pourquoi se limiter aux Églises protestantes réformées de Suisse romande?
 
@@ -130,7 +130,7 @@ Il est bien assez difficile de lister toutes les églises ouvertes protestantes 
 
 Plusieurs documentations de qualité existent:
 
-- [brochure EERV](https://vcc.eerv.ch/wp-content/uploads/sites/287/2015/02/170920_Brochure_Eglises_Ouvertes_LIGHT_V00.pdf)
+- ~~[brochure EERV](https://vcc.eerv.ch/wp-content/uploads/sites/287/2015/02/170920_Brochure_Eglises_Ouvertes_LIGHT_V00.pdf)~~ (n’est plus disponible en ligne)
 - [brochure RefBeJuSo](https://www.refbejuso.ch/fr/activites/eglise-lieu-daccueil/comment-devenir-une-eglise-lieu-daccueil/)
 - [brochure EERS](https://www.evref.ch/fr/publications/accueil-et-confiance-pour-des-eglises-ouvertes/)
 
@@ -149,7 +149,6 @@ C’est souvent de l’esbroufe.
 Sa pratique peut être difficile sur un smartphone.
 Au fond, l’application Google Maps est souvent meilleure que des cartes intégrées.
 
-Si le sujet vous intéresse, il est possible d’essayer cette [carte d’églises ouvertes](https://www.google.com/maps/d/edit?mid=1Pcez6C5gfwDuFniiIsa_EK9xS5fl7uDu&usp=sharing) (pas forcément à jour).
 
 ## Pourquoi est-il si sobre? 
 
