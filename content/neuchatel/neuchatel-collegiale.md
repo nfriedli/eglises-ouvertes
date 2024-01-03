@@ -1,7 +1,7 @@
 {
     "title": "Collégiale de Neuchâtel",
     "nomCourt": "Collégiale",
-    "site": "https://www.eren.ch/neuchatel/patrimoine-architectural/collegiale/",
+    "site": "https://www.eren.ch/neuchatel/culture/patrimoine-architectural/collegiale/",
     "maps": "https://goo.gl/maps/AaW6UsQMm5XD74wn9",
     "rue": "Rue de la Collégiale",
     "npa": 2000,

@@ -2,20 +2,20 @@
 
 Liste d’églises protestantes réformées ouvertes en Suisse romande.
 
-J’ai donné l’ancien nom de domaine eglises-ouvertes.ch. Le site a été ensuite abandonné.
+Le site est disponible à l’adresse: https://eglises-ouvertes.ch/
 
-À titre d’archive, il ressemblait à ceci: https://eglises-ouvertes.netlify.app/
+Le responsable du site est [Nicolas Friedli](https://nicolasfriedli.ch/).
 
 ## API
 
 L’ensemble des données du site est disponible en `json` en lecture seule: 
 
-- https://eglises-ouvertes.netlify.app/index.json
+- https://eglises-ouvertes.ch/index.json
 
 Un `json` est produit par canton, par exemple:
 
-- https://eglises-ouvertes.netlify.app/berne/index.json
-- https://eglises-ouvertes.netlify.app/jura/index.json
+- https://eglises-ouvertes.ch/berne/index.json
+- https://eglises-ouvertes.ch/jura/index.json
 
 Le `hotlinking` (raisonnable) est possible.
 

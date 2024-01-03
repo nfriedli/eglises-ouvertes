@@ -1,7 +1,7 @@
 {
     "title": "Temple de Serrières à Neuchâtel",
     "nomCourt": "Temple de Serrières",
-    "site": "https://www.eren.ch/neuchatel/patrimoine-architectural/temple-de-serrieres/",
+    "site": "https://www.eren.ch/neuchatel/culture/patrimoine-architectural/temple-de-serrieres/",
     "maps": "https://goo.gl/maps/17mX5E5Ayxrp9ML99",
     "rue": "Rue Guillaume-Farel 12",
     "npa": 2000,
