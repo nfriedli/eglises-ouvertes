@@ -1,4 +1,5 @@
 baseURL = "https://eglises-ouvertes.ch/"
+canonifyURLs = true
 cleanDestinationDir = true
 copyright = "CC0 (domaine public)"
 date = [ "date", "lastmod" ]
