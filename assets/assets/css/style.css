@@ -69,7 +69,7 @@ header a, nav.main a {
     text-decoration: none;;
 }
 
-nav.main, footer {
+nav.main, footer, button {
     font-size: .9rem;
 }
 
@@ -147,6 +147,13 @@ input {
 
 ul.search-results {
     min-height: 10rem;
+}
+
+button {
+    background: var(--light);
+    border: 1px solid var(--color);
+    border-radius: .2rem;
+    padding: .2rem .4rem;
 }
 
 /* Titraille */
