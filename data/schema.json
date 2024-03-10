@@ -1,0 +1,15 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Églises ouvertes en Suisse romande",
+    "alternateName": "Églises ouvertes",
+    "description": "Bâtiments protestants ouverts en Suisse romande. L’occasion de visiter le patrimoine religieux réformé.",
+    "url": "https://eglises-ouvertes.ch/",
+    "image": "/images/light-3176887_1920.jpg",
+    "author": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nicolas Friedli",
+        "url": "https://nicolasfriedli.ch/"
+    }
+}
