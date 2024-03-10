@@ -6,15 +6,16 @@
 {{ $print := resources.Get "assets/css/print.css" | minify | fingerprint }}
 <link rel="stylesheet" media="print" href="{{ $print.RelPermalink }}">
 
-<meta name="author" content="{{site.Author.name}}">
-<meta name="publisher" content="{{site.Author.name}}">
-<meta name="editor" content="{{site.Author.name}}">
-<meta name="copyright" content="{{site.Copyright}}">
-
 {{ if .IsHome}}
-{{ hugo.Generator }}
-<script type="application/ld+json">
-    {{ site.Data.schema }}
-</script>
+    <meta name="author" content="{{site.Author.name}}">
+    <meta name="publisher" content="{{site.Author.name}}">
+    <meta name="editor" content="{{site.Author.name}}">
+    <meta name="copyright" content="{{site.Copyright}}">
+
+    {{ hugo.Generator }}
+    <script type="application/ld+json">
+        {{ site.Data.schema }}
+    </script>
 {{ end }}
+
 <script defer data-domain="eglises-ouvertes.ch" src="https://plausible.io/js/script.outbound-links.tagged-events.js"></script>

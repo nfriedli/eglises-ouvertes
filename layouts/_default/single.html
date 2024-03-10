@@ -54,16 +54,18 @@
       {{ end }}
 
       <dt>Liens</dt>
-      {{ with .Params.Site }}<dd><a href="{{ . }}">Page web</a></dd>{{ end }}
-      {{ with .Params.Maps }}<dd><a href="{{ . }}">Google Maps</a></dd>{{ end }}
+      {{ with .Params.Site }}<dd><a href="{{ . }}" target="_blank">Page web</a></dd>{{ end }}
+      {{ with .Params.Maps }}<dd><a href="{{ . }}" target="_blank">Google Maps</a></dd>{{ end }}
 
     </dl>
 
-    <p>En cliquant sur un bouton, vous donnez des informations utiles:</p>
+    <div class="evaluation">
+      <p>En cliquant sur un de ces boutons, vous donnez en un instant des informations utiles au responsable du site:</p>
 
-    <button class="plausible-event-name=correction">corrections nécessaires</button>
-    <button class="plausible-event-name=ferme">église fermée</button>
-    <button class="plausible-event-name=merci">merci</button>
+      <button class="plausible-event-name=merci">tout va bien, merci 🤩</button>
+      <button class="plausible-event-name=correction">corrections nécessaires 😥</button>
+      <button class="plausible-event-name=ferme">église fermée 🤬</button>
+    </div>
 
     <h2>Les églises ouvertes les plus proches</h2>
     

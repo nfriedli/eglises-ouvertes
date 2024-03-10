@@ -4,9 +4,9 @@
     --light: hsl(50, 30%, 90%);
     --contrast: hsl(310, 80%, 40%);
     
-    --font-main: -apple-system, Roboto, Inter, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    --font-titling: Fraunces, Georgia, sans-serif;
-    --font-mono: Hack, "Fira Code", "Fira Sans Mono", "Roboto Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    --font-main: Roboto, system-ui, sans-serif;
+    --font-titling: Fraunces, system-ui, sans-serif;
+    --font-mono: ui-monospace, "Roboto Mono", Menlo, Consolas, monospace;
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -25,6 +25,7 @@ html {
     font-size: 100%;
     line-height: 1.5;
     overflow-y: scroll;
+    text-wrap: pretty
 }
 
 @media screen and (min-width: 1200px) {
@@ -112,10 +113,6 @@ dt {
 
 address {
     font-style: normal;
-}
-
-p {
-    text-wrap: pretty;
 }
 
 pre, code {
