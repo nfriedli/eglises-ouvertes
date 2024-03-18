@@ -153,6 +153,7 @@ button {
     background: var(--light);
     border: 1px solid var(--color);
     border-radius: .2rem;
+    color: inherit;
     padding: .2rem .4rem;
 }
 
