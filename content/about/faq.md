@@ -75,7 +75,7 @@ Les édifices sont saisis selon ce modèle:
 "vitraux":      ["Michael Meyers", "Jamie Lee Curtis"]
 ```
 
-Mais toute transmission d’informations sera utile!
+Un [JSON Schema](/schema.json) est disponible. Mais toute transmission d’informations sera utile!
 
 ## Quel tarif pour publier «mon» bâtiment?
 
