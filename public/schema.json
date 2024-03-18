@@ -1,0 +1,110 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://eglises-ouvertes.ch/schema.json",
+    "title": "église ouverte",
+    "description": "description complète d'une des Églises ouvertes de Suisse romande",
+    "type": "object",
+    "properties": {
+        "title": {
+            "description": "nom du bâtiment",
+            "type": "string"
+        },
+        "nomCourt": {
+            "description": "version simplifiée du nom du bâtiment",
+            "type": "string"
+        },
+        "site": {
+            "description": "page de présentation du bâtiment (horaire d'ouverture impératif)",
+            "type": "string"
+        },
+        "maps": {
+            "description": "fiche Google Mas du bâtiment (horaire d'ouverture impératif)",
+            "type": "string"
+        },
+        "rue": {
+            "description": "rue avec numéro",
+            "type": "string"
+        },
+        "localite": {
+            "description": "village dans une plus grande commune",
+            "type": "string"
+        },
+        "commune": {
+            "type": "string"
+        },
+        "npa": {
+            "description": "numéro postal d'acheminement",
+            "type": "integer",
+            "minimum": 1000,
+            "maximum": 9999
+        },
+        "canton": {
+            "description": "un canton de Suisse romande",
+            "enum": [
+                "Berne",
+                "Fribourg",
+                "Genève",
+                "Jura",
+                "Neuchâtel",
+                "Valais",
+                "Vaud"
+            ]
+        },
+        "latitude": {
+            "type": "number",
+            "minimum": 45,
+            "maximum": 48
+        },
+        "longitude": {
+            "type": "number",
+            "minimum": 5,
+            "maximum": 11
+        },
+        "ouverture": {
+            "description": "jours d'ouverture (souvent 7/7)",
+            "type": "string"
+        },
+        "horaire": {
+            "description": "heures d'ouverture (parfois 24/24)",
+            "type": "string"
+        },
+        "pbc": {
+            "description": "patrimoine des biens culturels suisses",
+            "enum": [
+                "A",
+                "B"
+            ]
+        },
+        "vitraux": {
+            "description": "nom d'artiste",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "anyOf": [
+        {
+            "required": [
+                "site"
+            ]
+        },
+        {
+            "required": [
+                "maps"
+            ]
+        }
+    ],
+    "required": [
+        "title",
+        "rue",
+        "npa",
+        "commune",
+        "canton",
+        "latitude",
+        "longitude",
+        "ouverture",
+        "horaire"
+    ],
+    "additionalProperties": false
+}
