@@ -166,3 +166,14 @@ button {
     font-weight: 700;
     src: url("/assets/fonts/fraunces-v31-latin-700.woff2") format("woff2");
   }
+
+/* Fermeture */
+
+aside.fermeture {
+    background: white;
+    border: .5rem solid red;
+    color: black;
+    font-weight: bold;
+    margin-block: 1rem;
+    padding-inline: 1rem;
+}

@@ -22,7 +22,14 @@
 
   {{ partialCached "navPrimary.html" . }}
 
+
+
   <main>
+
+    <aside class="fermeture">
+      <p>Ce site n’est plus mis à jour. Il sera arrêté durant l'année 2024. Le nom de domaine sera disponible dès janvier 2025.</p>
+    </aside>
+
     <article>
       <h1>{{ .Title }}</h1>
       {{ block "main" . }} {{ end }}
