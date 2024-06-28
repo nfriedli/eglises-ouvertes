@@ -1,4 +1,4 @@
-baseURL = "https://eglises-ouvertes.ch/"
+baseURL = "https://eglises-ouvertes.netlify.app/"
 canonifyURLs = true
 cleanDestinationDir = true
 copyright = "CC0 (domaine public)"

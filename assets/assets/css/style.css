@@ -177,3 +177,9 @@ aside.fermeture {
     margin-block: 1rem;
     padding-inline: 1rem;
 }
+
+.fermeture a {
+    color: inherit;
+    text-decoration-color: inherit;
+    text-decoration-thickness: .2ch;
+}

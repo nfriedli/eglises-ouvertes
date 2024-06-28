@@ -1,4 +1,2 @@
 User-agent: *
-Disallow:
-
-Sitemap: https://eglises-ouvertes.ch/sitemap.xml
+Disallow: /

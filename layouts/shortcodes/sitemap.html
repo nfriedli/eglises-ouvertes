@@ -1,8 +1,4 @@
-{{ range site.Sections }}
-<h2><a href="{{ .RelPermalink}}">{{ .Title }}</a></h2>
-<ul>
-    {{ range sort .Pages ".File.BaseFileName"}}
-    <li><a href="{{ .RelPermalink}}">{{ .Title }}</a>{{ if .Params.localite }} <small>({{.Params.commune}})</small>{{end}}
-        {{ end }}
-</ul>
-{{ end }}
+
+{{ range sort site.Pages ".File.BaseFileName" -}} 
+| {{ .Title }}{{ if .Params.localite }} ({{.Params.commune}}){{end}} | {{ .Params.canton }} | {{ with .Params.site }}[[{{.}}|site]]{{end}} | {{ with .Params.maps }}[[{{.}}|Google Maps]]{{end}} | {{ with .Params.pbc }}  {{.}}  {{end}}|
+{{ end -}}
