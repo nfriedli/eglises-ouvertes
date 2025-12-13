@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{site.LanguageCode}}">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ block "title" . }}{{ .Title }} - {{ site.Title }}{{end}}</title>
+  <link rel="canonical" href="{{.Permalink}}">
+  {{ block "description" . }}
+  {{ with .Params.description }}<meta name="description" content="{{.}}">{{ end }}
+  {{ end }}
+  {{ partialCached "head.html" . }}
+  {{ block "ld-json" . }} {{ end }}
+  {{ block "geo-tag" . }} {{ end }}
+  {{ partial "opengraph.html" . }}
+  {{ partialCached "favicon.html" .}}
+</head>
+
+<body>
+
+  {{ partialCached "header.html" . }}
+
+  {{ partialCached "navPrimary.html" . }}
+
+
+
+  <main>
+
+    <aside class="fermeture">
+      <p>Ce site n’est plus mis à jour. Les <a href="https://github.com/nfriedli/eglises-ouvertes">sources</a> restent disponibles pour reprendre le projet.</p>
+    </aside>
+
+    <article>
+      <h1>{{ .Title }}</h1>
+      {{ block "main" . }} {{ end }}
+    </article>
+  </main>
+
+  {{ partialCached "navSecondary.html" . }}
+    
+  {{ partialCached "footer.html" . }}
+
+</body>
+
+{{ block "javascript" . }} {{ end }}
+
+</html>
